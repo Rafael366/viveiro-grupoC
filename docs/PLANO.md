@@ -17,7 +17,7 @@
 
 | ID | História | Estimativa inicial (horas) | Reestimativa 13/08 (pontos) | Situação ao final |
 |---|---|---|---|---|
-| V-?? | | | | |
+| V-01 | | | | |
 | V-?? | | | | |
 
 **Capacidade assumida pela equipe:** ____ horas
