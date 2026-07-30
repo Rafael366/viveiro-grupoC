@@ -18,8 +18,8 @@
 
 | ID | Quem trabalhou | Tempo (min) |
 |---|---|---|
-|v-01| |5 minutos|
-
+|v-01|Rafael Tavares; Italo Vieira; Nicollas Gama. |5 minutos|
+|V-02|Rafael Tavares; Italo Vieira; Nicollas Gama. |5 minutos|
 
 **Impedimentos encontrados:** não identificação dos erros o que nos levou a fazer uma analise das normas, defeitos e das histórias.
 
