@@ -43,7 +43,7 @@ Pronto quando:
 Pronto quando:
 - existe um formulário com título, resumo e tags;
 - ao enviar, a ideia aparece no topo do mural imediatamente, sem recarregar a página;
-- a ideia criada traz, como autor, o nome de quem está navegando, e a data de hoje;
+- a ideia criada traz, como autor, o nome do usuário que está navegando, e a data de criação da ideia;
 - título vazio impede o envio e mostra uma mensagem dizendo o que falta;
 - a contagem total de ideias exibida no mural aumenta em um.
 
@@ -70,9 +70,9 @@ Pronto quando:
 
 Pronto quando:
 - a lista de grupos mostra, em cada grupo, se estou dentro ou fora;
-- entrar acrescenta meu nome à lista de membros e o contador sobe;
-- sair remove meu nome e o contador desce;
-- a lista mostra os nomes dos membros, não apenas o número;
+- entrar acrescenta o nome de usuário à lista de membros e o contador sobe;
+- sair remove meu nome de usuário e o contador desce;
+- a lista mostra os nomes de usuários dos membros, não apenas o número;
 - trocar a pessoa em "navegando como" muda corretamente o que aparece como "meus grupos".
 
 ---
