@@ -119,7 +119,7 @@ Pronto quando:
 ### V-09 — Aviso de novo interessado
 
 **Como** aluno com uma ideia publicada,
-**quero** receber uma notificação no celular quando alguém demonstrar interesse,
+**quero** receber um E-mail no computador quando alguém demonstrar interesse,
 **para** não perder a chance de formar grupo.
 
 Pronto quando:
