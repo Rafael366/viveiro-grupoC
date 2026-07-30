@@ -145,7 +145,6 @@ Nenhum destes foi priorizado. Estão aqui para não serem esquecidos.
 
 - **B-01** — depois de clicar numa tag, não há como desfazer o filtro; só recarregando a página.
 - **B-02** — quando a busca não encontra nada, o mural fica em branco, sem nenhuma explicação.
-- **B-03** — a data aparece como `2026-03-14` em vez de `14/03/2026`.
 - **B-04** — buscar `robotica` não encontra "Robótica"; buscar `Musica` não encontra "música".
 - **B-05** — o número de apoios no cartão só muda depois que se refaz a busca.
 - **B-06** — título comprido vaza para fora do cartão e atravessa o cartão vizinho.
