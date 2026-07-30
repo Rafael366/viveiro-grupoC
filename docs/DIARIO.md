@@ -8,20 +8,20 @@
 
 ## Encontro 1 — 30/07 (aula)
 
-**Presentes:**
-**Escriba:**
+**Presentes:** Rafael Tavares; Italo Vieira; Nicollas Gama. 
+**Escriba:** Rafael Tavares.
 
-**O que se pretendia:**
-**O que se realizou:**
+**O que se pretendia:** achar todos os erros dos documentos BACKLOG.md e PRONTO.md.
+**O que se realizou:** achar parte dos erros do backlog.
 
-**Tempo gasto por história:**
+**Tempo gasto por história:** desconhecido.
 
 | ID | Quem trabalhou | Tempo (min) |
 |---|---|---|
 
-**Impedimentos encontrados:** *(o que travou o trabalho, e o que foi feito a respeito)*
+**Impedimentos encontrados:** não identificação dos erros o que nos levou a fazer uma analise das normas, defeitos e das histórias.
 
-**Decisões tomadas:** *(com a justificativa de cada uma)*
+**Decisões tomadas:** trocar "nome" por "nome de usuário" e reformulação do filtro.
 
 ---
 
