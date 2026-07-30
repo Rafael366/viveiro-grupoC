@@ -17,10 +17,10 @@
 **para** saber se temos interesses em comum antes de procurá-la.
 
 Pronto quando:
-- clicar no nome do autor, em qualquer cartão, abre a página dessa pessoa;
-- a página mostra nome, tipo (aluno ou professor), curso e interesses;
-- a página lista as ideias publicadas por essa pessoa, com o título clicável;
-- se a pessoa não publicou nenhuma ideia, aparece a frase "ainda não publicou ideias" no lugar da lista vazia;
+- clicar no nome de usuário do autor, em qualquer cartão, abre a página dessa pessoa;
+- a página mostra nome de usuário, tipo (aluno ou professor), curso e interesses;
+- a página lista as ideias publicadas por essa usuário, com o título clicável;
+- se a usuário não publicou nenhuma ideia, aparece a frase "ainda não publicou ideias" no lugar da lista vazia;
 - existe um caminho de volta ao mural sem usar o botão do navegador.
 
 ---
