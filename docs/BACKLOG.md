@@ -1,7 +1,7 @@
 # Backlog do Viveiro
 
 > Documento herdado. Escrito ao longo do 1º semestre de 2026 pela equipe anterior.
-> Última alteração: 2026-05-28.
+> Última alteração: 2026-07-30.
 >
 > **Aviso de quem escreveu:** algumas destas histórias passaram pela revisão do
 > cliente e outras não. Não me lembro quais. Boa sorte. — R.M.
