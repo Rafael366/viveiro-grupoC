@@ -18,7 +18,7 @@
 
 | ID | Quem trabalhou | Tempo (min) |
 |---|---|---|
-||||
+
 **Impedimentos encontrados:** não identificação dos erros o que nos levou a fazer uma analise das normas, defeitos e das histórias.
 
 **Decisões tomadas:** trocar "nome" por "nome de usuário" e reformulação do filtro.
