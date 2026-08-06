@@ -14,29 +14,28 @@
 
 **Como** aluno que encontrou uma ideia interessante,
 **quero** ver a página de quem a publicou,
-**para** saber se temos interesses em comum antes de procurá-la.
+**para** saber se temos interesses acadêmicos em comum antes de procurá-la.
 
 Pronto quando:
 - clicar no nome de usuário do autor, em qualquer cartão, abre a página dessa pessoa;
-- a página mostra nome de usuário, tipo (aluno ou professor), curso e interesses;
-- a página lista as ideias publicadas por essa usuário, com o título clicável;
-- se a usuário não publicou nenhuma ideia, aparece a frase "ainda não publicou ideias" no lugar da lista vazia;
+- a página mostra nome de usuário, tipo (aluno ou professor), curso e interesses de projeto;
+- a página lista as ideias publicadas por este(a) usuário(a), com o título clicável;
+- se o usuário não publicou nenhuma ideia, aparece a frase "ainda não publicou ideias" no lugar da lista vazia;
 - existe um caminho de volta ao mural sem usar o botão do navegador.
 
 ---
 
 ### V-02 — Filtro por curso
 
-Implementar filtro por curso na barra lateral do mural.
+**Como** aluno que quer achar um projeto interessante, 
+**quero** ter um filtro na barra lateral, 
+**para** encontrar projetos relacionados ao meu curso.
 
 Pronto quando:
--A barra lateral contém um seletor (dropdown ou lista) com os cursos disponíveis.
-
--Selecionar um curso exibe imediatamente apenas os cartões vinculados a ele.
-
--Existe a opção "Todos os cursos" para limpar o filtro e reexibir a lista completa.
-
--Se o curso selecionado não possuir ideias, exibe a mensagem "Nenhuma ideia cadastrada para este curso".
+- A barra lateral contém um seletor (dropdown ou lista) com os cursos disponíveis.
+- Selecionar um curso exibe imediatamente apenas os projetos vinculados a ele.
+- Existe a opção "Todos os cursos" para limpar o filtro e reexibir a lista completa.
+- Se o curso selecionado não possuir ideias, exibe a mensagem "Nenhuma ideia cadastrada para este curso".
 
 ---
 
@@ -66,21 +65,21 @@ Pronto quando:
 - A busca inspeciona título, resumo e tags das ideias.
 - A busca é insensível a maiúsculas/minúsculas e acentuação (ex: "robotica" encontra "Robótica") (corrigindo o bug B-04).
 - Quando nenhum resultado for encontrado, exibe a mensagem "Nenhuma ideia encontrada para esta busca" (corrigindo o bug B-02).
-- Apagar o texto da busca restaura a exibição de todas as ideias
+- Apagar o texto da busca restaura a exibição de todas as ideias.
 ---
 
 ### V-05 — Entrar e sair de um grupo
 
 **Como** aluno que quer se aproximar de um tema,
-**quero** entrar num grupo,
+**quero** entrar num grupo de estudo/pesquisa,
 **para** acompanhar o que se discute ali.
 
 Pronto quando:
-- a lista de grupos mostra, em cada grupo, se estou dentro ou fora;
+- a lista de grupos de estudo/pesquisa mostra, em cada grupo, se estou dentro ou fora;
 - entrar acrescenta o nome de usuário à lista de membros e o contador sobe;
 - sair remove meu nome de usuário e o contador desce;
 - a lista mostra os nomes de usuários dos membros, não apenas o número;
-- trocar a pessoa em "navegando como" muda corretamente o que aparece como "meus grupos".
+- trocar a pessoa em "navegando como" muda corretamente o que aparece como "meus grupos de projeto".
 
 ---
 
@@ -105,11 +104,11 @@ Pronto quando:
 **para** que quem a propôs saiba que pode me chamar.
 
 Pronto quando:
--Cada cartão possui o botão "Tenho interesse em participar".
--Ao clicar, o nome do usuário selecionado em "navegando como" entra na lista de interessados.
--O sistema impede que a mesma pessoa se registre mais de uma vez na mesma ideia.
--É possível cancelar o interesse; o nome é removido e o contador decrementa.
--O número de apoios/interessados atualiza instantaneamente no cartão sem necessidade de reexibir ou refazer buscas (corrigindo o bug B-05).
+- Cada cartão possui o botão "Tenho interesse em participar".
+- Ao clicar, o nome do usuário selecionado em "navegando como" entra na lista de interessados.
+- O sistema impede que a mesma pessoa se registre mais de uma vez na mesma ideia.
+- É possível cancelar o interesse; o nome é removido e o contador decrementa.
+- O número de apoios/interessados atualiza instantaneamente no cartão sem necessidade de reexibir ou refazer buscas (corrigindo o bug B-05).
 
 ### V-08 — Não perder o que foi escrito
 
@@ -125,13 +124,13 @@ Pronto quando:
 ### V-09 — Aviso de novo interessado
 
 **Como** aluno com uma ideia publicada,
-**quero** receber um E-mail no computador quando alguém demonstrar interesse,
+**quero** receber um E-mail ou uma notificação in-web quando alguém demonstrar interesse,
 **para** não perder a chance de formar grupo.
 
 Pronto quando:
-- ao registrar interesse, o autor recebe uma notificação no celular em até um minuto;
+- ao registrar interesse, o autor recebe uma notificação no e-mail ou in-web em até um minuto;
 - a notificação mostra o nome de quem se interessou e o título da ideia;
-- tocar na notificação abre a ideia correspondente.
+- acessar a notificação abre a ideia correspondente.
 
 ---
 
