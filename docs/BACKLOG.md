@@ -103,12 +103,10 @@ Obs.: falamos em três estados — semente, germinando, proposta.
 **para** que quem a propôs saiba que pode me chamar.
 
 Pronto quando:
-- cada cartão tem um controle "tenho interesse em participar";
-- ao acionar, meu nome passa a constar na lista de interessados daquela ideia;
-- a mesma pessoa não consegue se registrar duas vezes na mesma ideia;
-- é possível desfazer o interesse, e o nome sai da lista;
-- o número de interessados exibido no cartão corresponde ao tamanho da lista.
-
+- Os cartões exibem um badge visual indicando um dos 3 estados: Semente, Germinando ou Proposta.
+- Toda ideia recém-criada inicia obrigatoriamente como Semente.
+- O autor da ideia possui um controle para alterar o estado no cartão ou na página de detalhes.
+- A alteração de estado reflete imediatamente na interface e persiste localmente.
 ---
 
 ### V-08 — Não perder o que foi escrito
