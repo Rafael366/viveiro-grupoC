@@ -61,10 +61,11 @@ Pronto quando:
 **para** não perder tempo.
 
 Pronto quando:
-- a interface estiver amigável;
-- a busca for rápida;
-- o resultado for relevante.
-
+- A busca filtra em tempo real ao digitar no campo de texto.
+- A busca inspeciona título, resumo e tags das ideias.
+- A busca é insensível a maiúsculas/minúsculas e acentuação (ex: "robotica" encontra "Robótica") (corrigindo o bug B-04).
+- Quando nenhum resultado for encontrado, exibe a mensagem "Nenhuma ideia encontrada para esta busca" (corrigindo o bug B-02).
+- Apagar o texto da busca restaura a exibição de todas as ideias
 ---
 
 ### V-05 — Entrar e sair de um grupo
