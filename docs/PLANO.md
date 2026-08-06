@@ -1,4 +1,4 @@
-# Plano da sprint — [nome da equipe] · base [V-?]
+# Plano da sprint — [Grupo C] · base [V-01]
 
 > Preenchido na reunião de planejamento (30/07) e atualizado a cada encontro
 > pelo escriba. As seções seguem a ordem em que serão usadas.
@@ -17,15 +17,15 @@
 
 | ID | História | Estimativa inicial (horas) | Reestimativa 13/08 (pontos) | Situação ao final |
 |---|---|---|---|---|
-| V-01 | | | | |
-| V-02| | | | |
-| V-03| | | | |
-| V-04| | | | |
-| V-05| | | | |
-| V-06| | | | |
-| V-07| | | | |
-| V-08| | | | |
-| V-12| | | | |
+| V-01||5 MINUTOS | | |
+| V-02| | 5 MINUTOS| | |
+| V-03| | 5 MINUTOS| | |
+| V-04| | 5 MINUTOS| | |
+| V-05| |5 MINUTOS | | |
+| V-06| |5 MINUTOS | | |
+| V-07| | 5 MINUTOS| | |
+| V-08| |5 MINUTOS | | |
+| V-12| |5 MINUTOS | | |
 
 
 **Capacidade assumida pela equipe:** ____ horas
