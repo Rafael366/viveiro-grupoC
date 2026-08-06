@@ -153,3 +153,9 @@ Nenhum destes foi priorizado. Estão aqui para não serem esquecidos.
 - **B-04** — buscar `robotica` não encontra "Robótica"; buscar `Musica` não encontra "música".
 - **B-05** — o número de apoios no cartão só muda depois que se refaz a busca.
 - **B-06** — título comprido vaza para fora do cartão e atravessa o cartão vizinho.
+- correção:
+- **B-01** -Adicionar botão "Limpar tag" ou permitir desmarcar a tag clicando novamente nela.
+- **B-02** -Exibir mensagem Empty State amigável informando ausência de dados.
+- **B-04** -Aplicar normalização de strings (remover acentos e converter para lowercase) na busca.
+- **B-05** -Forçar re-renderização do componente do cartão ao alterar estado de interesse.
+- **B-06** -Aplicar regra CSS (word-break: break-word ou text-overflow: ellipsis).
