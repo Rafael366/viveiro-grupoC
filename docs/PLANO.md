@@ -18,7 +18,15 @@
 | ID | História | Estimativa inicial (horas) | Reestimativa 13/08 (pontos) | Situação ao final |
 |---|---|---|---|---|
 | V-01 | | | | |
-| V-?? | | | | |
+| V-02| | | | |
+| V-03| | | | |
+| V-04| | | | |
+| V-05| | | | |
+| V-06| | | | |
+| V-07| | | | |
+| V-08| | | | |
+| V-12| | | | |
+
 
 **Capacidade assumida pela equipe:** ____ horas
 (4 encontros + sessões extras previstas)
