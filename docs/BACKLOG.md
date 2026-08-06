@@ -30,7 +30,10 @@ Pronto quando:
 Implementar filtro por curso na barra lateral do mural.
 
 Pronto quando:
-- o filtro estiver funcionando.
+- Formulário com os campos: título, resumo e tags.Ao enviar, a ideia aparece no topo do mural imediatamente sem recarregar a página.
+- A ideia criada atribui o autor com base no usuário selecionado em "navegando como" e registra a data atual em formato DD/MM/AAAA (corrigindo o bug B-03).
+- Campo de título vazio impede a submissão e exibe alerta visual de preenchimento obrigatório.
+- O contador geral de ideias do mural incrementa em +1 após o cadastro.
 
 ---
 
