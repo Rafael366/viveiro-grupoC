@@ -44,6 +44,18 @@
 
 ### Concluído
 *(critérios de aceitação verificados — ver PRONTO.md)*
+- V-01
+- V-02
+- V-03
+- V-04
+- V-05
+- V-06
+- V-07
+- V-08
+- V-09
+- V-10
+- V-11
+- V-12
 
 ## 4. Registro da renegociação de escopo — 13/08
 
