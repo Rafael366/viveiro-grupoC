@@ -90,9 +90,10 @@ Pronto quando:
 **para** que os estados das ideias fiquem registrados.
 
 Pronto quando:
-- os estados estiverem implementados.
-
-Obs.: falamos em três estados — semente, germinando, proposta.
+-  Os cartões exibem um badge visual indicando um dos 3 estados: Semente, Germinando ou Proposta.
+- Toda ideia recém-criada inicia obrigatoriamente como Semente.
+- O autor da ideia possui um controle para alterar o estado no cartão ou na página de detalhes.
+- A alteração de estado reflete imediatamente na interface e persiste localmente.
 
 ---
 
@@ -103,11 +104,11 @@ Obs.: falamos em três estados — semente, germinando, proposta.
 **para** que quem a propôs saiba que pode me chamar.
 
 Pronto quando:
-- Os cartões exibem um badge visual indicando um dos 3 estados: Semente, Germinando ou Proposta.
-- Toda ideia recém-criada inicia obrigatoriamente como Semente.
-- O autor da ideia possui um controle para alterar o estado no cartão ou na página de detalhes.
-- A alteração de estado reflete imediatamente na interface e persiste localmente.
----
+-Cada cartão possui o botão "Tenho interesse em participar".
+-Ao clicar, o nome do usuário selecionado em "navegando como" entra na lista de interessados.
+-O sistema impede que a mesma pessoa se registre mais de uma vez na mesma ideia.
+-É possível cancelar o interesse; o nome é removido e o contador decrementa.
+-O número de apoios/interessados atualiza instantaneamente no cartão sem necessidade de reexibir ou refazer buscas (corrigindo o bug B-05).
 
 ### V-08 — Não perder o que foi escrito
 
