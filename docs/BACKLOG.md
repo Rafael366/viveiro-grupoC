@@ -51,6 +51,7 @@ Pronto quando:
 - a ideia criada traz, como autor, o nome do usuário que está navegando, e a data de criação da ideia;
 - título vazio impede o envio e mostra uma mensagem dizendo o que falta;
 - a contagem total de ideias exibida no mural aumenta em um.
+- O título do cartão deve se ajustar aos limites do componente visual.
 
 ---
 
@@ -63,9 +64,11 @@ Pronto quando:
 Pronto quando:
 - A busca filtra em tempo real ao digitar no campo de texto.
 - A busca inspeciona título, resumo e tags das ideias.
-- A busca é insensível a maiúsculas/minúsculas e acentuação (ex: "robotica" encontra "Robótica") (corrigindo o bug B-04).
-- Quando nenhum resultado for encontrado, exibe a mensagem "Nenhuma ideia encontrada para esta busca" (corrigindo o bug B-02).
+- A busca é insensível a maiúsculas/minúsculas e acentuação (ex: "robotica" encontra "Robótica").
+- Quando nenhum resultado for encontrado, exibe a mensagem "Nenhuma ideia encontrada para esta busca".
 - Apagar o texto da busca restaura a exibição de todas as ideias.
+- Exibir botão "Limpar tag" ou permitir desmarcar a tag clicando novamente nela.
+
 ---
 
 ### V-05 — Entrar e sair de um grupo
@@ -90,10 +93,11 @@ Pronto quando:
 **para** que os estados das ideias fiquem registrados.
 
 Pronto quando:
--  Os cartões exibem um badge visual indicando um dos 3 estados: Semente, Germinando ou Proposta.
+- Os cartões exibem um badge visual indicando um dos 3 estados: Semente, Germinando ou Proposta.
 - Toda ideia recém-criada inicia obrigatoriamente como Semente.
 - O autor da ideia possui um controle para alterar o estado no cartão ou na página de detalhes.
 - A alteração de estado reflete imediatamente na interface e persiste localmente.
+- O título do cartão deve se ajustar aos limites do componente visual.
 
 ---
 
@@ -108,7 +112,7 @@ Pronto quando:
 - Ao clicar, o nome do usuário selecionado em "navegando como" entra na lista de interessados.
 - O sistema impede que a mesma pessoa se registre mais de uma vez na mesma ideia.
 - É possível cancelar o interesse; o nome é removido e o contador decrementa.
-- O número de apoios/interessados atualiza instantaneamente no cartão sem necessidade de reexibir ou refazer buscas (corrigindo o bug B-05).
+- O número de apoios/interessados atualiza instantaneamente no cartão sem necessidade de reexibir ou refazer buscas.
 
 ### V-08 — Não perder o que foi escrito
 
@@ -117,7 +121,9 @@ Pronto quando:
 **para** não ter que digitar tudo de novo.
 
 Pronto quando:
-- os dados forem salvos em `localStorage` usando `JSON.stringify`, e recuperados no carregamento da página.
+- Os dados digitados nos formulários são salvos continuamente como rascunho durante o preenchimento.
+- Ao reabrir ou recarregar a página, o estado anterior do sistema e os rascunhos não enviados são restaurados automaticamente.
+- O envio bem-sucedido de um formulário limpa o rascunho salvo correspondente.
 
 ---
 
@@ -150,12 +156,13 @@ Nenhum destes foi priorizado. Estão aqui para não serem esquecidos.
 
 - **B-01** — depois de clicar numa tag, não há como desfazer o filtro; só recarregando a página.
 - **B-02** — quando a busca não encontra nada, o mural fica em branco, sem nenhuma explicação.
+- **B-03** — a data aparece como 2026-03-14 em vez de 14/03/2026.
 - **B-04** — buscar `robotica` não encontra "Robótica"; buscar `Musica` não encontra "música".
 - **B-05** — o número de apoios no cartão só muda depois que se refaz a busca.
 - **B-06** — título comprido vaza para fora do cartão e atravessa o cartão vizinho.
-- correção:
-- **B-01** -Adicionar botão "Limpar tag" ou permitir desmarcar a tag clicando novamente nela.
-- **B-02** -Exibir mensagem Empty State amigável informando ausência de dados.
-- **B-04** -Aplicar normalização de strings (remover acentos e converter para lowercase) na busca.
-- **B-05** -Forçar re-renderização do componente do cartão ao alterar estado de interesse.
-- **B-06** -Aplicar regra CSS (word-break: break-word ou text-overflow: ellipsis).
+## Defeitos corrigidos
+- **C-01** - Adicionar botão "Limpar tag" ou permitir desmarcar a tag clicando novamente nela.
+- **C-02** - Exibir mensagem "Nenhuma ideia encontrada para esta busca" informando ausência de dados.
+- **C-04** - Aplicar normalização de strings (remover acentos e converter para lowercase) na busca.
+- **C-05** - Forçar re-renderização do componente do cartão ao alterar estado de interesse.
+- **C-06** - Aplicar regra CSS (word-break: break-word ou text-overflow: ellipsis).
