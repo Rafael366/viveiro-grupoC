@@ -31,11 +31,8 @@ Implementar filtro por curso na barra lateral do mural.
 
 Pronto quando:
 -A barra lateral contém um seletor (dropdown ou lista) com os cursos disponíveis.
-
 -Selecionar um curso exibe imediatamente apenas os cartões vinculados a ele.
-
 -Existe a opção "Todos os cursos" para limpar o filtro e reexibir a lista completa.
-
 -Se o curso selecionado não possuir ideias, exibe a mensagem "Nenhuma ideia cadastrada para este curso".
 ---
 
