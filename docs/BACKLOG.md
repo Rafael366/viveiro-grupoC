@@ -142,7 +142,7 @@ Pronto quando:
 
 ## Caixa de entrada
 
-###V-10 Identificar ideias paradas (Sem engajamento)
+V-10 Identificar ideias paradas (Sem engajamento)
 **Como** professor ou moderador da plataforma,
 **quero** visualizar quais ideias não recebem novos interessados ou atualizações há bastante tempo,
 **para** poder dar atenção, orientar ou ajudar a movimentar propostas esquecidas.
@@ -152,7 +152,7 @@ Pronto quando:
 - É exibido um badge visual discreto (ex: "Sem novos interessados") em ideias que estão no estado Semente e não possuem registros de interesse nas últimas semanas ou desde a criação.
 - Permite que o professor identifique rapidamente ideias que precisam de incentivo para não serem perdidas.
 
-###V-11 — Relatório de ideias por curso.
+V-11 — Relatório de ideias por curso.
 **Como** membro da Coordenação de Ensino, Pesquisa e Extensão,
 **quero** visualizar um resumo quantitativo das ideias e interessados agrupados por curso,
 **para** mapear a demanda acadêmica da instituição antes de publicar novos editais.
@@ -167,7 +167,7 @@ Pronto quando:
 - Se um curso não possuir ideias cadastradas, ele deve ser listado com a contagem zerada (0).
 - O relatório reflete os dados armazenados localmente em tempo real sem expor dados pessoais reais (respeitando a Norma 1).
 
-###V-12 — Exportar e importar o estado da aplicação
+V-12 — Exportar e importar o estado da aplicação
 **Como** usuário da plataforma (ou equipe de desenvolvimento/testes),
 
 **quero** exportar todos os dados do Viveiro para um arquivo local (JSON) e poder importá-los de volta,
