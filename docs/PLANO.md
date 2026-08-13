@@ -23,7 +23,7 @@
 | V-04| Como visitante do mural, quero encontrar rapidamente as ideias que combinam comigo, para não perder tempo. | 2 HORAS | | |
 | V-05| Como aluno que quer se aproximar de um tema, quero entrar num grupo de estudo/pesquisa, para acompanhar o que se discute ali. | 2 HORAS | | |
 | V-06| Como usuário, quero que as ideias tenham estados, para que os estados das ideias fiquem registrados. | 2 HORAS | | |
-| V-07| | 2 HORAS | | |
+| V-07| Como aluno que quer entrar num projeto, quero declarar interesse numa ideia, para que quem a propôs saiba que pode me chamar. | 2 HORAS | | |
 | V-08| | 3 HORAS | | |
 | V-09| | 3 HORAS | | |
 | V-10| | 3 HORAS | | |
