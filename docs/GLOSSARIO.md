@@ -45,7 +45,38 @@ Logo, ele é um membro daquele grupo.
 
 ---
 
+### Tag
+
+É tipo um sistema de classificação de ideias que age dentro do filtro,
+onde o autor descreve o tema de sua ideia por meio de palavras-chaves.
+
+---
+
+### Curso
+
+Um curso é uma classificação geral de ideias
+(se uma ideia é sobre uma nova linguagem de programação
+ela será do curso de programação).
+
+---
+
+### Mural
+
+Se parece com um quadro branco, porém,
+é um local onde aparecem os cursos
+e suas principais características. 
+
+---
+
+### Perfil
+
+É uma página sobre um usuário do Viveiro com informações,
+como nome, grupos que participa, interesses acadêmicos,  
+
+---
+
+
 ## Termos ainda sem definição
 
-tag · curso · mural · perfil · proposta ·
+proposta ·
 semente · germinando
