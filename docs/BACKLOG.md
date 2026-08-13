@@ -198,3 +198,6 @@ Nenhum destes foi priorizado. Estão aqui para não serem esquecidos.
 - **C-05** - Forçar re-renderização do componente do cartão ao alterar estado de interesse.
 - **C-06** - Aplicar regra CSS (word-break: break-word ou text-overflow: ellipsis).
 ## Triagem 
+
+| ID |Oque foi corrigido? | como ficou? |
+|---|---|---|
