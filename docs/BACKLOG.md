@@ -201,3 +201,4 @@ Nenhum destes foi priorizado. Estão aqui para não serem esquecidos.
 
 | ID | Analise da história   |               Oque foi corrigido? |                                    como ficou? |
 |---|---|---|---|
+|V-01|Linguagem genérica ("interesses em comum", "nome") que desrespeitava a Norma 3 (Natureza Acadêmica) e abria brecha para a Norma 1 (Dados Pessoais).|  Alteração da nomenclatura para garantir o contexto acadêmico e evitar dados reais de alunos.  Passou a exigir estritamente "nome de usuário" fictício e "interesses acadêmicos/de projeto".|
