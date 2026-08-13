@@ -18,7 +18,7 @@
 | ID | História | Estimativa inicial (horas) | Reestimativa 13/08 (pontos) | Situação ao final |
 |---|---|---|---|---|
 | V-01| Como aluno que encontrou uma ideia interessante, quero ver a página de quem a publicou, para saber se temos interesses acadêmicos em comum antes de procurá-la.|1 hora | | |
-| V-02| | 1 HORA | | |
+| V-02| Como aluno que quer achar um projeto interessante, quero ter um filtro na barra lateral, para encontrar projetos relacionados ao meu curso. | 1 HORA | | |
 | V-03| | 1 HORA | | |
 | V-04| | 2 HORAS | | |
 | V-05| | 2 HORAS | | |
