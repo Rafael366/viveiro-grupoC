@@ -17,15 +17,18 @@
 
 | ID | História | Estimativa inicial (horas) | Reestimativa 13/08 (pontos) | Situação ao final |
 |---|---|---|---|---|
-| V-01| |5 MINUTOS | | |
-| V-02| | 5 MINUTOS| | |
-| V-03| | 5 MINUTOS| | |
-| V-04| | 5 MINUTOS| | |
-| V-05| |5 MINUTOS | | |
-| V-06| |5 MINUTOS | | |
-| V-07| | 5 MINUTOS| | |
-| V-08| |5 MINUTOS | | |
-| V-12| |5 MINUTOS | | |
+| V-01| Como aluno que encontrou uma ideia interessante, quero ver a página de quem a publicou, para saber se temos interesses acadêmicos em comum antes de procurá-la.|1 hora | | |
+| V-02| | 1 HORA | | |
+| V-03| | 1 HORA | | |
+| V-04| | 2 HORAS | | |
+| V-05| | 2 HORAS | | |
+| V-06| | 2 HORAS | | |
+| V-07| | 2 HORAS | | |
+| V-08| | 3 HORAS | | |
+| V-09| | 3 HORAS | | |
+| V-10| | 3 HORAS | | |
+| V-11| | 3 HORAS | | |
+| V-12| | 3 HORAS | | |
 
 
 **Capacidade assumida pela equipe:** ____ horas
