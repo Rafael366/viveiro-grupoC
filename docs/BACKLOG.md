@@ -148,31 +148,25 @@ V-10 Identificar ideias paradas (Sem engajamento)
 **para** poder dar atenção, orientar ou ajudar a movimentar propostas esquecidas.
 
 Pronto quando:
--Na listagem/mural de ideias, existe uma opção de ordenação ou filtro por "Ideias sem atualização" (ou ordenação por "Mais antigas / Menos interessados").
--É exibido um badge visual discreto (ex: "Sem novos interessados") em ideias que estão no estado Semente e não possuem registros de interesse nas últimas semanas ou desde a criação.
--Permite que o professor identifique rapidamente ideias que precisam de incentivo para não serem perdidas.
-V-11 — Relatório de ideias por curso
-Como membro da Coordenação de Ensino, Pesquisa e Extensão,
+- Na listagem/mural de ideias, existe uma opção de ordenação ou filtro por "Ideias sem atualização" (ou ordenação por "Mais antigas / Menos interessados").
+- É exibido um badge visual discreto (ex: "Sem novos interessados") em ideias que estão no estado Semente e não possuem registros de interesse nas últimas semanas ou desde a criação.
+- Permite que o professor identifique rapidamente ideias que precisam de incentivo para não serem perdidas.
+##V-11 — Relatório de ideias por curso
+**Como** membro da Coordenação de Ensino, Pesquisa e Extensão,
 
-quero visualizar um resumo quantitativo das ideias e interessados agrupados por curso,
+**quero** visualizar um resumo quantitativo das ideias e interessados agrupados por curso,
 
-para mapear a demanda acadêmica da instituição antes de publicar novos editais.
+**para** mapear a demanda acadêmica da instituição antes de publicar novos editais.
 
 Pronto quando:
 
-Existe uma aba ou tela dedicada de "Relatórios" / "Visão Geral" acessível na plataforma.
-
-A tela exibe uma tabela ou lista consolidada contendo:
-
-Nome do Curso;
-
-Total de ideias publicadas vinculadas ao curso;
-
-Total de alunos/usuários interessados acumulados nessas ideias.
-
-Se um curso não possuir ideias cadastradas, ele deve ser listado com a contagem zerada (0).
-
-O relatório reflete os dados armazenados localmente em tempo real sem expor dados pessoais reais (respeitando a Norma 1).
+- Existe uma aba ou tela dedicada de "Relatórios" / "Visão Geral" acessível na plataforma.
+- A tela exibe uma tabela ou lista consolidada contendo:
+- Nome do Curso;
+- Total de ideias publicadas vinculadas ao curso;
+- Total de alunos/usuários interessados acumulados nessas ideias.
+- Se um curso não possuir ideias cadastradas, ele deve ser listado com a contagem zerada (0).
+- O relatório reflete os dados armazenados localmente em tempo real sem expor dados pessoais reais (respeitando a Norma 1).
 
 V-12 — Exportar e importar o estado da aplicação
 **Como** usuário da plataforma (ou equipe de desenvolvimento/testes),
