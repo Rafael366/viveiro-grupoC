@@ -200,4 +200,4 @@ Nenhum destes foi priorizado. Estão aqui para não serem esquecidos.
 ## Triagem 
 
 | ID | Analise da história   |               Oque foi corrigido? |                                    como ficou? |
-|---|---|---|
+|---|---|---|---|
