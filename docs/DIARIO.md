@@ -49,11 +49,11 @@
 |V-02|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel; Artur Rodrigues.|10 minutos|
 |V-03|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel; Artur Rodrigues.|10 minutos|
 |V-04|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel; Artur Rodrigues.|10 minutos|
-|V-05|Rafael Tavares; Italo Vieira; Nicollas Gama. |5 minutos|
-|V-06|Rafael Tavares; Italo Vieira; Nicollas Gama. |5 minutos|
-|V-07|Rafael Tavares; Italo Vieira; Nicollas Gama. |5 minutos|
-|V-08|Rafael Tavares; Italo Vieira; Nicollas Gama. |5 minutos|
-|V-09|Rafael Tavares; Italo Vieira; Nicollas Gama. |5 minutos|
+|V-05|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel; Artur Rodrigues.|10 minutos|
+|V-06|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel; Artur Rodrigues.|10 minutos|
+|V-07|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel; Artur Rodrigues.|10 minutos|
+|V-08|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel; Artur Rodrigues.|10 minutos|
+|V-09|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel; Artur Rodrigues.|10 minutos|
 
 **Impedimentos encontrados:** não identificação dos erros o que nos levou a fazer uma analise das normas, defeitos e das histórias.
 ---
