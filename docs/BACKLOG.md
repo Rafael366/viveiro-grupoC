@@ -144,19 +144,14 @@ Pronto quando:
 
 Anotações de conversa. Ninguém escreveu direito ainda.
 
- ##V-10'Identificar ideias paradas (Sem engajamento)
+##V-10 Identificar ideias paradas (Sem engajamento)
 **Como** professor ou moderador da plataforma,
-
 **quero** visualizar quais ideias não recebem novos interessados ou atualizações há bastante tempo,
-
 **para** poder dar atenção, orientar ou ajudar a movimentar propostas esquecidas.
 
 Pronto quando:
-
 -Na listagem/mural de ideias, existe uma opção de ordenação ou filtro por "Ideias sem atualização" (ou ordenação por "Mais antigas / Menos interessados").
-
 -É exibido um badge visual discreto (ex: "Sem novos interessados") em ideias que estão no estado Semente e não possuem registros de interesse nas últimas semanas ou desde a criação.
-
 -Permite que o professor identifique rapidamente ideias que precisam de incentivo para não serem perdidas.
 - **V-11** — relatório por curso
 - **V-12** — exportar / importar o estado
