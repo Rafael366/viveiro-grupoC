@@ -12,6 +12,8 @@ Tem título, resumo, autor, tags e data. **Não** é um projeto: um projeto
 existe perante uma instituição, tem edital, orientador e prazo. Uma ideia 
 existe para descobrir se vale a pena virar um projeto.
 
+---
+
 ### Grupo
 
 "Grupo" quer dizer o coletivo de pessoas reunidas dentro do Viveiro
