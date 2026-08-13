@@ -184,9 +184,9 @@ V-12 — Exportar e importar o estado da aplicação
 Pronto quando:
 
 -Existe um botão ou menu "Exportar dados" que faz o download de um arquivo contendo todo o estado atual do sistema (ideias, estados, interessados, grupos e rascunhos).
--Existe um botão "Importar dados" que permite selecionar um arquivo previamente exportado para restaurar ou carregar esse estado na aplicação.
--Caso o arquivo importado seja inválido ou esteja corrompido, o sistema exibe uma mensagem de erro amigável sem quebrar a interface nem apagar os dados atuais.
--A importação substitui/atualiza o estado local do navegador de forma transparente.
+- Existe um botão "Importar dados" que permite selecionar um arquivo previamente exportado para restaurar ou carregar esse estado na aplicação.
+- Caso o arquivo importado seja inválido ou esteja corrompido, o sistema exibe uma mensagem de erro amigável sem quebrar a interface nem apagar os dados atuais.
+- A importação substitui/atualiza o estado local do navegador de forma transparente.
 
 ---
 
