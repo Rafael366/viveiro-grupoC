@@ -33,7 +33,7 @@
 **Decisões tomadas:** trocar "nome" por "nome de usuário" e reformulação do filtro.
 
 
-## Encontro 2 —06/07/26 (aula)
+## Encontro 2 —06/08/26 (aula)
 
 **Presentes:** Rafael Tavares; Italo Vieira; Nicollas Gama, Gabriel e Artur.
 **Escriba:** Rafael Tavares.
@@ -57,6 +57,33 @@
 
 **Impedimentos encontrados:** não identificação dos erros o que nos levou a fazer uma analise das normas, defeitos e das histórias.
 ---
+
+## Encontro 3 — 13/08 (aula)
+
+**Presentes:** Rafael Tavares; Italo Vieira; Nicollas Gama, Artur. 
+**Escriba:** Nicollas Gama.
+
+**O que se pretendia:** definir PLANO.md e GLOSSARIO.md
+**O que se realizou:** achar parte dos erros do backlog.
+
+**Tempo gasto por história:** 5 minutos.
+
+| ID | Quem trabalhou | Tempo (min) |
+|---|---|---|
+|v-01|Italo Vieira. |5 minutos|
+|V-02|Italo Vieira. |5 minutos|
+|V-03|Italo Vieira. |5 minutos|
+|V-04|Italo Vieira. |5 minutos|
+|V-05|Italo Vieira. |5 minutos|
+|V-06|Italo Vieira. |5 minutos|
+|V-07|Italo Vieira. |5 minutos|
+|V-08|Italo Vieira. |5 minutos|
+|V-09|Italo Vieira. |5 minutos|
+|GLOSSÁRIO|Rafael Tavares. |2|
+
+**Impedimentos encontrados:** não identificação dos erros o que nos levou a fazer uma analise das normas, defeitos e das histórias.
+
+**Decisões tomadas:** definições das palavras do glossário e revisões no backlog.
 
 ## Sessão extra — [data], [duração]
 
