@@ -47,7 +47,7 @@ Pronto quando:
 
 Pronto quando:
 - existe um formulário com título, resumo e tags;
-- ao enviar, a ideia aparece no topo do mural imediatamente, sem recarregar a página;
+- ao enviar, a ideia aparece no topo do mural, ao recarregar a página;
 - a ideia criada traz, como autor, o nome do usuário que está navegando, e a data de criação da ideia;
 - título vazio impede o envio e mostra uma mensagem dizendo o que falta;
 - a contagem total de ideias exibida no mural aumenta em um.
