@@ -17,16 +17,7 @@
 
 | ID | História | Estimativa inicial (horas) | Reestimativa 13/08 (pontos) | Situação ao final |
 |---|---|---|---|---|
-| V-01| Como aluno que encontrou uma ideia interessante, quero ver a página de quem a publicou, para saber se temos interesses acadêmicos em comum antes de procurá-la.
-
-Pronto quando:
-
-clicar no nome de usuário do autor, em qualquer cartão, abre a página dessa pessoa;
-a página mostra nome de usuário, tipo (aluno ou professor), curso e interesses de projeto;
-a página lista as ideias publicadas por este(a) usuário(a), com o título clicável;
-se o usuário não publicou nenhuma ideia, aparece a frase "ainda não publicou ideias" no lugar da lista vazia;
-existe um caminho de volta ao mural sem usar o botão do navegador.
-|5 MINUTOS | | |
+| V-01| |5 MINUTOS | | |
 | V-02| | 5 MINUTOS| | |
 | V-03| | 5 MINUTOS| | |
 | V-04| | 5 MINUTOS| | |
