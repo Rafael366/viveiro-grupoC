@@ -81,7 +81,7 @@
 |V-09|Italo Vieira. |5 minutos|
 |GLOSSÁRIO|Rafael Tavares. |2|
 
-**Impedimentos encontrados:** não identificação dos erros o que nos levou a fazer uma analise das normas, defeitos e das histórias.
+**Impedimentos encontrados:** não identificação dos erros o que nos levou a fazer uma analise das normas, defeitos e das histórias; PONTOS DE DIFICULDADE DAS HISTÓRIAS.
 
 **Decisões tomadas:** definições das palavras do glossário e revisões no backlog.
 
