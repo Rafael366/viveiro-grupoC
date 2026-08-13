@@ -75,8 +75,22 @@ como nome, grupos que participa, interesses acadêmicos,
 
 ---
 
+### Proposta
 
-## Termos ainda sem definição
+Seria como a essência de uma ideia criada por um usuário
 
-proposta ·
-semente · germinando
+---
+
+### Semente
+
+É uma etapa de uma ideia.
+Significa que a ideia está em desenvolvimento
+
+---
+### Germinando
+
+É a etapa final de uma ideia antes de se tornar projeto.
+Significa que a ideia está pronta e só precisa de apoio para virar projeto
+
+---
+
