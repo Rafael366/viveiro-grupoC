@@ -77,20 +77,21 @@ como nome, grupos que participa, interesses acadêmicos,
 
 ### Proposta
 
-Seria como a essência de uma ideia criada por um usuário
+É a etapa final de uma ideia antes de se tornar projeto.
+Significa que a ideia está pronta.
 
 ---
 
 ### Semente
 
-É uma etapa de uma ideia.
-Significa que a ideia está em desenvolvimento
+É uma etapa inicial de uma ideia.
+Significa que a ideia acabou de ser criada
 
 ---
 ### Germinando
 
-É a etapa final de uma ideia antes de se tornar projeto.
-Significa que a ideia está pronta e só precisa de apoio para virar projeto
+É uma etapa intermediaria de uma ideia.
+Significa que a ideia está em desenvolvimento
 
 ---
 
