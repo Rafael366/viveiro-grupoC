@@ -199,5 +199,5 @@ Nenhum destes foi priorizado. Estão aqui para não serem esquecidos.
 - **C-06** - Aplicar regra CSS (word-break: break-word ou text-overflow: ellipsis).
 ## Triagem 
 
-| ID |                   Oque foi corrigido? |                                    como ficou? |
+| ID | Analise da história   |               Oque foi corrigido? |                                    como ficou? |
 |---|---|---|
