@@ -142,9 +142,7 @@ Pronto quando:
 
 ## Caixa de entrada
 
-Anotações de conversa. Ninguém escreveu direito ainda.
-
-##V-10 Identificar ideias paradas (Sem engajamento)
+V-10 Identificar ideias paradas (Sem engajamento)
 **Como** professor ou moderador da plataforma,
 **quero** visualizar quais ideias não recebem novos interessados ou atualizações há bastante tempo,
 **para** poder dar atenção, orientar ou ajudar a movimentar propostas esquecidas.
