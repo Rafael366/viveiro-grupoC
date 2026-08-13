@@ -1,33 +1,49 @@
 # Glossário do Viveiro
 
-> Documento herdado. Começado em 2026-04-02 e abandonado no mesmo dia.
-> A ideia era fixar o sentido das palavras que a gente usa, para parar de
-> discutir sem saber se estávamos falando da mesma coisa.
+> Documento herdado. Começado em 2026-04-02.
+> A ideia é fixar o sentido das palavras que a gente usa.
 
 ---
 
-### ideia
+### Ideia
 
-Uma proposta ainda informal, publicada por uma pessoa no mural do Viveiro.
+Uma proposta formal ou informal, publicada por uma pessoa no mural do Viveiro.
 Tem título, resumo, autor, tags e data. **Não** é um projeto: um projeto
-existe perante a instituição, tem edital, orientador e prazo. Uma ideia não
-tem nada disso — ela existe para descobrir se vale a pena virar projeto.
+existe perante uma instituição, tem edital, orientador e prazo. Uma ideia 
+existe para descobrir se vale a pena virar um projeto.
 
-### grupo
+### Grupo
 
-Aqui a gente empacou.
+"Grupo" quer dizer o coletivo de pessoas reunidas dentro do Viveiro
+em torno de um tema ou disciplina (o que o sistema mostra na aba Grupos).
+**Não** é uma equipe: a equipe é um grupo de colegas de trabalho
+profissional.
 
-"Grupo" às vezes quer dizer o coletivo de pessoas reunidas dentro do Viveiro
-em torno de um tema (o que o sistema mostra na aba Grupos). Outras vezes,
-nas nossas reuniões, "grupo" quer dizer *a nossa equipe de trabalho*. Já
-aconteceu de alguém dizer "adiciona o fulano no grupo" e ninguém saber se
-era no sistema ou na disciplina.
+---
 
-Fica registrado. Não resolvemos.
+### Apoiar
+
+Significa contribuir de certa maneira em uma ideia
+fornecendo complementos ou criando ideias para um grupo.
+
+---
+
+### Interessado
+
+Um interessado é um usuário que achou uma ideia interessante
+e gostaria de que ela se tornasse um projeto
+e provavelmente participaria dele.
+
+---
+
+### Membro
+
+É um usuário do Viveiro que participa de um grupo.
+Logo, ele é um membro daquele grupo.
 
 ---
 
 ## Termos ainda sem definição
 
-apoiar · interessado · membro · tag · curso · mural · perfil · proposta ·
+tag · curso · mural · perfil · proposta ·
 semente · germinando
