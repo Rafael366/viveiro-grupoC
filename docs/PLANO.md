@@ -21,7 +21,7 @@
 | V-02| Como aluno que quer achar um projeto interessante, quero ter um filtro na barra lateral, para encontrar projetos relacionados ao meu curso. | 1 HORA | | |
 | V-03| Como aluno com uma ideia na cabeça, quero publicá-la sem depender de ninguém, para que ela exista antes de eu esquecer. | 1 HORA | | |
 | V-04| Como visitante do mural, quero encontrar rapidamente as ideias que combinam comigo, para não perder tempo. | 2 HORAS | | |
-| V-05|  | 2 HORAS | | |
+| V-05| Como aluno que quer se aproximar de um tema, quero entrar num grupo de estudo/pesquisa, para acompanhar o que se discute ali. | 2 HORAS | | |
 | V-06| | 2 HORAS | | |
 | V-07| | 2 HORAS | | |
 | V-08| | 3 HORAS | | |
