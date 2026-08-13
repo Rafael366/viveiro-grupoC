@@ -28,7 +28,7 @@
 | V-09| Como aluno com uma ideia publicada, quero receber um E-mail ou uma notificação in-web quando alguém demonstrar interesse, para não perder a chance de formar grupo. | 3 HORAS | | |
 | V-10| Como professor ou moderador da plataforma, quero visualizar quais ideias não recebem novos interessados ou atualizações há bastante tempo, para poder dar atenção, orientar ou ajudar a movimentar propostas esquecidas. | 3 HORAS | | |
 | V-11| Como membro da Coordenação de Ensino, Pesquisa e Extensão, quero visualizar um resumo quantitativo das ideias e interessados agrupados por curso, para mapear a demanda acadêmica da instituição antes de publicar novos editais. | 3 HORAS | | |
-| V-12| | 3 HORAS | | |
+| V-12| Como usuário da plataforma (ou equipe de desenvolvimento/testes), quero exportar todos os dados do Viveiro para um arquivo local (JSON) e poder importá-los de volta, para não perder as ideias, grupos e rascunhos criados no navegador e permitir o compartilhamento de dados entre diferentes sessões/computadores. | 3 HORAS | | |
 
 
 **Capacidade assumida pela equipe:** ____ horas
