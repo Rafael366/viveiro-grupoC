@@ -43,8 +43,7 @@
 - V-??
 
 ### Em andamento
-- V-??
-- triagw
+
 ### Concluído
 *(critérios de aceitação verificados — ver PRONTO.md)*
 - V-01
@@ -65,6 +64,7 @@
 - b-4
 - b-5
 - b-6
+- triagem
 
 ## 4. Registro da renegociação de escopo — 13/08
 
