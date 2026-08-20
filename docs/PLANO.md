@@ -71,13 +71,13 @@
 > Preencher durante a reunião com o cliente. Registrar o estado de fato,
 > não a versão que soa melhor.
 
-**Comparação plano × realizado até aqui:**
+*Compa*ração plano × realizado até aqui:**
 
 | ID | Estimado (h) | Gasto até 13/08 (h) | Observação |
 |---|---|---|---|
-
+| | | |
 **O que foi retirado do compromisso:** *(IDs e motivo)*
 
 **O que o cliente decidiu:** *(registrar a decisão nas palavras em que foi dada)*
 
-**A meta permanece alcançável?** *(sim/não, e por quê)*
+**A meta permanece alcançável?**
