@@ -8,7 +8,7 @@ Uma história está pronta quando o todo o grupo concorda com as decisões tomad
 
 ## Critérios de aceitação
 
-Analisar as histórias do BACKLOG.md consultando as normas .
+Analisar as histórias do BACKLOG.md consultando as normas e o briefing do Viveiro.
 
 ---
 
