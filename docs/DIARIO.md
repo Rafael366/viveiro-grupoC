@@ -85,18 +85,18 @@
 
 **Decisões tomadas:** definições das palavras do glossário e revisões no backlog.
 
-## Sessão extra — [data], [duração]
+## Sessão extra — [15/08/2026], [1 hora]
 
 **Como foi combinada:** *(quando se marcou, por qual meio, quem confirmou)*
-**Presentes:**
-**Escriba:**
+**Presentes:**Italo Vieira Freitas
+**Escriba:**Italo Vieira Freitas
 
-**O que se realizou:**
+**O que se realizou:**Uma analise dos pontos e algumas correções minimas.
 
 | ID | Quem trabalhou | Tempo (min) |
 |---|---|---|
 
-**Impedimentos e decisões:**
+**Impedimentos e decisões:**corrigidos minimos detalhes.
 
 ---
 
