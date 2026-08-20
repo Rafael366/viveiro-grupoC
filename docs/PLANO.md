@@ -20,9 +20,9 @@
 | V-01| Como aluno que encontrou uma ideia interessante, quero ver a página de quem a publicou, para saber se temos interesses acadêmicos em comum antes de procurá-la.|1 hora | 5 | |
 | V-02| Como aluno que quer achar um projeto interessante, quero ter um filtro na barra lateral, para encontrar projetos relacionados ao meu curso. | 1 HORA | 3 | |
 | V-03| Como aluno com uma ideia na cabeça, quero publicá-la sem depender de ninguém, para que ela exista antes de eu esquecer. | 3 HORAS | 5 | |
-| V-04| Como visitante do mural, quero encontrar rapidamente as ideias que combinam comigo, para não perder tempo. | 2 HORAS | 8 | 8 |
+| V-04| Como visitante do mural, quero encontrar rapidamente as ideias que combinam comigo, para não perder tempo. | 2 HORAS | 8 | |
 | V-05| Como aluno que quer se aproximar de um tema, quero entrar num grupo de estudo/pesquisa, para acompanhar o que se discute ali. | 2 HORAS | 8 | |
-| V-06| Como usuário, quero que as ideias tenham estados, para que os estados das ideias fiquem registrados. | 2 HORAS | 5 | 5 |
+| V-06| Como usuário, quero que as ideias tenham estados, para que os estados das ideias fiquem registrados. | 2 HORAS | 5 | |
 | V-07| Como aluno que quer entrar num projeto, quero declarar interesse numa ideia, para que quem a propôs saiba que pode me chamar. | 2 HORAS | 3 | |
 | V-08| Como usuário, quero não perder o que escrevi, para não ter que digitar tudo de novo. | 3 HORAS | 13 | |
 | V-09| Como aluno com uma ideia publicada, quero receber um E-mail ou uma notificação in-web quando alguém demonstrar interesse, para não perder a chance de formar grupo. | 3 HORAS | 13 | |
