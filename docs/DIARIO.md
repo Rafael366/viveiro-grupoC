@@ -88,13 +88,14 @@
 ## Sessão extra — [15/08/2026], [1 hora]
 
 **Como foi combinada:** *(quando se marcou, por qual meio, quem confirmou)*
-**Presentes:**Italo Vieira Freitas
+**Presentes:**Italo Vieira Freitas, Artur Rodrigues, Rafael Tavares.
 **Escriba:**Italo Vieira Freitas
 
 **O que se realizou:**Uma analise dos pontos e algumas correções minimas.
 
 | ID | Quem trabalhou | Tempo (min) |
 |---|---|---|
+| | | |
 
 **Impedimentos e decisões:**corrigidos minimos detalhes.
 
