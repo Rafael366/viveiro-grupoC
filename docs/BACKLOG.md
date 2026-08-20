@@ -211,4 +211,9 @@ Nenhum destes foi priorizado. Estão aqui para não serem esquecidos.
 |V-08|	A história original ditava como programar o código no critério de aceite ("salvos em localStorage usando JSON.stringify").|	Remoção da instrução técnica para focar na experiência do usuário e na regra de negócio.|	O critério foca no "rascunho contínuo", restauração automática ao reabrir a página e limpeza ao enviar o formulário com sucesso.|
 |V-09|Erro Crítico: Exigia "notificação no celular", ferindo frontalmente a Norma 2 (Dispositivos Móveis no interior da escola).|  Remoção de qualquer menção a celulares para não reprovar a história.  |Alterado para "notificação no e-mail ou in-web". (Nota: Como não há servidor, a notificação in-web é a única viável no momento).  |
 |V-10 a V-12|Eram apenas três anotações vagas na "Caixa de Entrada", sem nenhuma estrutura de História de Usuário.|Escrita completa de cada história, respeitando as restrições arquiteturais da Sprint. | V-10: Identifica ideias paradas visualmente. V-11: Relatório quantitativo focado em dados fictícios. V-12: Viabiliza o uso sem banco de dados exportando/importando via .|
-
+## Histórias que iram ser feitas.
+**V-01**
+**V-02**
+**V-03**
+**V-04**
+**V-07**
