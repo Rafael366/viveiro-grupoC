@@ -35,36 +35,60 @@
 
 ## Encontro 2 —06/08/26 (aula)
 
-**Presentes:** Rafael Tavares; Italo Vieira; Nicollas Gama, Gabriel e Artur.
-**Escriba:** Rafael Tavares.
+**Presentes:** Rafael Tavares; Italo Vieira; Nicollas Gama, Gabriel Corticioni e Artur Rodrigues.
+**Escriba:** Italo Vieira.
 
 **O que se pretendia:** achar todos os erros dos documentos BACKLOG.md e PRONTO.md.
-**O que se realizou:** achar parte dos erros do backlog.
+**O que se realizou:** achar outra parte dos erros do backlog.
 
 **Tempo gasto por história:** 5 minutos.
 
 | ID | Quem trabalhou | Tempo (min) |
 |---|---|---|
-|v-01|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel; Artur Rodrigues.|10 minutos|
-|V-02|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel; Artur Rodrigues.|10 minutos|
-|V-03|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel; Artur Rodrigues.|10 minutos|
-|V-04|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel; Artur Rodrigues.|10 minutos|
-|V-05|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel; Artur Rodrigues.|10 minutos|
-|V-06|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel; Artur Rodrigues.|10 minutos|
-|V-07|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel; Artur Rodrigues.|10 minutos|
-|V-08|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel; Artur Rodrigues.|10 minutos|
-|V-09|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel; Artur Rodrigues.|10 minutos|
+|v-01|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel Corticioni; Artur Rodrigues.|10 minutos|
+|V-02|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel Corticioni; Artur Rodrigues.|10 minutos|
+|V-03|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel Corticioni; Artur Rodrigues.|10 minutos|
+|V-04|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel Corticioni; Artur Rodrigues.|10 minutos|
+|V-05|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel Corticioni; Artur Rodrigues.|10 minutos|
+|V-06|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel Corticioni; Artur Rodrigues.|10 minutos|
+|V-07|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel Corticioni; Artur Rodrigues.|10 minutos|
+|V-08|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel Corticioni; Artur Rodrigues.|10 minutos|
+|V-09|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel Corticioni; Artur Rodrigues.|10 minutos|
 
-**Impedimentos encontrados:** não identificação dos erros o que nos levou a fazer uma analise das normas, defeitos e das histórias.
+**Impedimentos encontrados:** nenhum
+
+**Decisões tomadas:** reformulação do backlog
+
 ---
+
+## Sessão extra — [09/08], [1 hora]
+
+**Como foi combinada:** no dia anterior, em uma videochamada no app google meet, todos confirmaram.
+**Presentes:** Todos os integrantes da equipe
+**Escriba:** Rafael Tavares
+
+**O que se realizou:** consultamos as historias e iniciamos o planejamento da triagem
+
+| ID | Quem trabalhou | Tempo (min) |
+|---|---|---|
+|v-01|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel Corticioni; Artur Rodrigues.|10 minutos|
+|v-02|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel Corticioni; Artur Rodrigues.|10 minutos|
+|v-03|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel Corticioni; Artur Rodrigues.|10 minutos|
+|v-04|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel Corticioni; Artur Rodrigues.|10 minutos|
+|v-05|Rafael Tavares; Italo Vieira; Nicollas Gama; Gabriel Corticioni; Artur Rodrigues.|10 minutos|
+
+**Impedimentos e decisões:**  Não houve nenhum impedimento significativo; BLA BLA BLA
+
+---
+
 
 ## Encontro 3 — 13/08 (aula)
 
-**Presentes:** Rafael Tavares; Italo Vieira; Nicollas Gama, Artur. 
+**Presentes:** Rafael Tavares; Italo Vieira; Nicollas Gama, Artur Rodrigues. 
 **Escriba:** Nicollas Gama.
 
 **O que se pretendia:** definir PLANO.md e GLOSSARIO.md
-**O que se realizou:** achar parte dos erros do backlog.
+**O que se realizou:** reescrita do glossário
 
 **Tempo gasto por história:** 5 minutos.
 
@@ -85,22 +109,37 @@
 
 **Decisões tomadas:** definições das palavras do glossário e revisões no backlog.
 
-## Sessão extra — [15/08/2026], [1 hora]
+## Encontro 4 — 20/08 (aula)
 
-**Como foi combinada:** *(quando se marcou, por qual meio, quem confirmou)*
-**Presentes:**Italo Vieira Freitas, Artur Rodrigues, Rafael Tavares.
-**Escriba:**Italo Vieira Freitas
+**Presentes:** Rafael Tavares; Italo Vieira; Nicollas Gama; Artur Rodrigues 
+**Escriba:** Rafael Tavares.
 
-**O que se realizou:**Uma analise dos pontos e algumas correções minimas.
+**O que se pretendia:** Finalizar os preparativos, apresentar ao cliente e iniciar a realização das histórias
+**O que se realizou:** achar parte dos erros do backlog.
+
+**Tempo gasto por história:** x minutos.
 
 | ID | Quem trabalhou | Tempo (min) |
 |---|---|---|
-| | | |
 
-**Impedimentos e decisões:**corrigidos minimos detalhes.
+
+**Impedimentos encontrados:** não identificação dos erros o que nos levou a fazer uma analise das normas, defeitos e das histórias.
+
+**Decisões tomadas:** trocar "nome" por "nome de usuário" e reformulação do filtro.
+
+
+
+## Sessão extra — [data], [duração]
+
+**Como foi combinada:** *(quando se marcou, por qual meio, quem confirmou)*
+**Presentes:**
+**Escriba:**
+
+**O que se realizou:**
+
+| ID | Quem trabalhou | Tempo (min) |
+|---|---|---|
+
+**Impedimentos e decisões:**
 
 ---
-
-> Repetir o bloco adequado para cada encontro (06/08, 13/08, 20/08) e para
-> cada sessão extra. Não apagar blocos de sessões que não aconteceram:
-> registrar "não houve sessão extra nesta semana" também é registro.
