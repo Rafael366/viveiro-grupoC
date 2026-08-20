@@ -46,8 +46,11 @@ function ideiasVisiveis() {
     // filtro por texto
     var casaTexto = true;
     if (estado.busca !== "") {
-      casaTexto = ideia.titulo.includes(estado.busca) ||
-                  ideia.resumo.includes(estado.busca);
+      function normalizar(texto) {
+ return texto.toLowerCase()
+ .normalize("NFD")
+ .replace(/[\u0300-\u036f]/g, "");
+ }
     }
 
     // filtro por tag
@@ -91,6 +94,11 @@ function desenharMural() {
   for (var i = 0; i < lista.length; i++) {
     alvo.appendChild(montarCartao(lista[i]));
   }
+   if (lista.length === 0) {
+ var vazio = document.createElement("p");
+ vazio.textContent = "Nenhuma ideia encontrada.";
+ alvo.appendChild(vazio);
+ }
 
   document.getElementById("contagem").textContent =
     lista.length + " de " + DADOS.ideias.length + " ideias";
@@ -98,6 +106,13 @@ function desenharMural() {
   var aviso = document.getElementById("filtro-ativo");
   if (estado.tag !== null) {
     aviso.textContent = "mostrando apenas ideias com a etiqueta: " + estado.tag;
+     var limpar = document.createElement("button");
+ limpar.textContent = "limpar filtro";
+ limpar.onclick = function () {
+ estado.tag = null;
+ desenharMural();
+ };
++ aviso.appendChild(limpar);
   } else {
     aviso.textContent = "";
   }
@@ -113,7 +128,10 @@ function montarCartao(ideia) {
 
   var autoria = document.createElement("div");
   autoria.className = "autoria";
-  autoria.textContent = nomeDe(ideia.autor) + " · " + ideia.data;
+  function dataBonita(iso) {
+   var partes = iso.split("-");
+ return partes[2] + "/" + partes[1] + "/" + partes[0];
+ }
   cartao.appendChild(autoria);
 
   var resumo = document.createElement("p");
@@ -189,6 +207,7 @@ function criarCliqueDeApoio(idIdeia) {
   return function () {
     var ideia = ideiaPorId(idIdeia);
     ideia.apoios = ideia.apoios + 1;
+     desenharMural();
   };
 }
 
