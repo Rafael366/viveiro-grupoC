@@ -570,73 +570,94 @@ function montarCartao(ideia) {
 
   /* ------------------------- rodapé -------------------------- */
 
-  var rodape =
-    document.createElement("div");
+var rodape =
+  document.createElement("div");
 
-  rodape.className =
-    "rodape";
+rodape.className =
+  "rodape";
 
 
-  var botao =
+/* -------------------- botão de interesse ------------------- */
+
+var botao =
+  document.createElement("button");
+
+botao.className =
+  "interesse";
+
+var interessados =
+  Array.isArray(ideia.interessados)
+    ? ideia.interessados
+    : [];
+
+var interessado =
+  interessados.indexOf(estado.pessoa) >= 0;
+
+if (interessado) {
+
+  botao.className += " ativo";
+
+  botao.textContent =
+    "Cancelar interesse";
+
+} else {
+
+  botao.textContent =
+    "Tenho interesse em participar";
+
+}
+
+botao.onclick =
+  criarCliqueDeInteresse(ideia.id);
+
+rodape.appendChild(botao);
+
+
+/* ------------------------- contador ------------------------- */
+
+var contador =
+  document.createElement("span");
+
+contador.className =
+  "apoios";
+
+contador.textContent =
+  interessados.length +
+  (
+    interessados.length === 1
+      ? " interessado"
+      : " interessados"
+  );
+
+rodape.appendChild(contador);
+
+
+/* ------------------------- excluir -------------------------- */
+
+/*
+ * O botão só aparece para o autor da ideia.
+ */
+if (ideia.autor === estado.pessoa) {
+
+  var excluir =
     document.createElement("button");
 
-  botao.className =
-    "interesse";
+  excluir.className =
+    "excluir";
+
+  excluir.textContent =
+    "Excluir ideia";
+
+  excluir.onclick =
+    criarCliqueDeExclusao(ideia.id);
+
+  rodape.appendChild(excluir);
+}
 
 
-  var interessados =
-    Array.isArray(ideia.interessados)
-      ? ideia.interessados
-      : [];
+cartao.appendChild(rodape);
 
-
-  var interessado =
-    interessados.indexOf(estado.pessoa) >= 0;
-
-
-  if (interessado) {
-
-    botao.className += " ativo";
-
-    botao.textContent =
-      "Cancelar interesse";
-
-  } else {
-
-    botao.textContent =
-      "Tenho interesse em participar";
-
-  }
-
-
-  botao.onclick =
-    criarCliqueDeInteresse(ideia.id);
-
-
-  rodape.appendChild(botao);
-
-
-  var contador =
-    document.createElement("span");
-
-  contador.className =
-    "apoios";
-
-  contador.textContent =
-    interessados.length +
-    (
-      interessados.length === 1
-        ? " interessado"
-        : " interessados"
-    );
-
-
-  rodape.appendChild(contador);
-
-  cartao.appendChild(rodape);
-
-
-  return cartao;
+return cartao;
 }
 
 
