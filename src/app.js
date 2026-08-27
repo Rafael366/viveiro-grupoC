@@ -743,6 +743,75 @@ function criarCliqueDeInteresse(idIdeia) {
   };
 }
 
+/* ================================================================
+   EXCLUIR IDEIA
+   ================================================================ */
+
+function criarCliqueDeExclusao(idIdeia) {
+
+  return function () {
+
+    var ideia =
+      ideiaPorId(idIdeia);
+
+    if (!ideia) {
+      return;
+    }
+
+
+    /*
+     * Segurança: somente o autor pode excluir
+     * a própria ideia.
+     */
+    if (ideia.autor !== estado.pessoa) {
+      return;
+    }
+
+
+    /*
+     * Confirmação antes da exclusão.
+     */
+    var confirmar =
+      window.confirm(
+        "Tem certeza que deseja excluir esta ideia?"
+      );
+
+    if (!confirmar) {
+      return;
+    }
+
+
+    /*
+     * Procura e remove a ideia.
+     */
+    for (
+      var i = 0;
+      i < DADOS.ideias.length;
+      i++
+    ) {
+
+      if (DADOS.ideias[i].id === idIdeia) {
+
+        DADOS.ideias.splice(i, 1);
+
+        break;
+      }
+    }
+
+
+    /*
+     * Salva a nova lista no navegador.
+     */
+    salvarIdeias();
+
+
+    /*
+     * Atualiza o mural imediatamente.
+     * A contagem também será atualizada.
+     */
+    desenharMural();
+  };
+}
 
 /* ================================================================
    PERFIL — V-01
