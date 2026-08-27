@@ -831,33 +831,30 @@
      APOIO
      ================================================================ */
 
-  function apoiarIdeia(id) {
-    const ideia = ideiaPorId(id);
-
-    if (!ideia) return;
-
-    ideia.apoios = Number(ideia.apoios || 0) + 1;
-
-    const pessoa = pessoaAtual();
-
-    if (pessoa && Number(ideia.autor) !== Number(pessoa.id)) {
-      criarNotificacao(
-        ideia.autor,
-        `${pessoa.nome} apoiou sua ideia "${ideia.titulo}".`,
-        ideia.id
-      );
-    }
-
-    salvar();
-
-    renderizarMural();
-
-    if (estado.ideiaSelecionada === ideia.id) {
-      renderizarDetalhe(ideia);
-    }
-
-    atualizarContadorNotificacoes();
-  }
+   function alternarApoio(ideiaId) {
+     const chave = `viveiro_apoios_${usuarioAtual.id}`;
+     const apoiosUsuario = JSON.parse(localStorage.getItem(chave) || "[]");
+   
+     const ideia = DADOS.ideias.find(i => i.id === ideiaId);
+   
+     if (!ideia) return;
+   
+     const indice = apoiosUsuario.indexOf(ideiaId);
+   
+     if (indice === -1) {
+       // Apoiar
+       apoiosUsuario.push(ideiaId);
+       ideia.apoios++;
+     } else {
+       // Desmarcar apoio
+       apoiosUsuario.splice(indice, 1);
+       ideia.apoios = Math.max(0, ideia.apoios - 1);
+     }
+   
+     localStorage.setItem(chave, JSON.stringify(apoiosUsuario));
+   
+     renderizarMural();
+   }
 
 
   /* ================================================================
