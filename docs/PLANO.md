@@ -8,7 +8,7 @@
 > Uma frase, verificável, acordada com o cliente. Tudo o que entrar no
 > compromisso deve servir a ela.
 
-*(escrever aqui)*
+*Concluir o projeto tentando aplicar as histórias de maneiras que eleas funcionem para o cliente.*
 
 ## 2. Compromisso
 
@@ -78,6 +78,6 @@
 | | | |
 **O que foi retirado do compromisso:** *(IDs e motivo)*
 
-**O que o cliente decidiu:** *(registrar a decisão nas palavras em que foi dada)*
+**O que o cliente decidiu:** *Ao apresentar as histórias ao cliente, foi decidido então realizar as histórias 1, 2, 3, 4 e 7.*
 
-**A meta permanece alcançável?**
+**A meta permanece alcançável?** Sim.
