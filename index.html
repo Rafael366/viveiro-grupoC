@@ -13,6 +13,7 @@
     <h1>Viveiro</h1>
     <span class="lema">onde as ideias crescem antes de virar projeto</span>
   </div>
+
   <div class="sessao">
     <label for="quem">navegando como</label>
     <select id="quem"></select>
@@ -22,31 +23,148 @@
 <nav class="abas">
   <button id="aba-mural" class="aba ativa">Mural</button>
   <button id="aba-grupos" class="aba">Grupos</button>
+  <button id="aba-publicar" class="aba">Publicar ideia</button>
 </nav>
 
 <main>
+
   <!-- ------------------------------ MURAL ------------------------------ -->
   <section id="mural">
-    <div class="barra">
-      <input id="busca" type="search" placeholder="buscar por título ou resumo...">
-      <span id="contagem" class="contagem"></span>
+
+    <div class="layout-mural">
+
+      <aside class="barra-lateral">
+
+        <div class="filtro-box">
+          <h2>Filtrar por curso</h2>
+
+          <select id="filtro-curso">
+            <option value="">Todos os cursos</option>
+          </select>
+        </div>
+
+        <div class="filtro-box">
+          <h2>Buscar</h2>
+
+          <input
+            id="busca"
+            type="search"
+            placeholder="buscar por título, resumo ou tag..."
+          >
+        </div>
+
+      </aside>
+
+      <div class="conteudo-mural">
+
+        <div class="barra">
+          <span id="contagem" class="contagem"></span>
+        </div>
+
+        <p id="filtro-ativo" class="filtro-ativo"></p>
+
+        <div id="cartoes" class="cartoes"></div>
+
+      </div>
+
     </div>
-    <p id="filtro-ativo" class="filtro-ativo"></p>
-    <div id="cartoes" class="cartoes"></div>
+
   </section>
+
+
+  <!-- ------------------------------ PERFIL ----------------------------- -->
+  <section id="perfil" class="escondido">
+
+    <div class="pagina-pessoa">
+
+      <button id="voltar-mural" class="botao-voltar">
+        ← Voltar ao mural
+      </button>
+
+      <div id="dados-pessoa" class="dados-pessoa"></div>
+
+      <div class="ideias-pessoa">
+        <h2>Ideias publicadas</h2>
+        <div id="lista-ideias-pessoa"></div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ------------------------------ PUBLICAR --------------------------- -->
+  <section id="publicar" class="escondido">
+
+    <div class="pagina-publicar">
+
+      <h2>Publicar uma ideia</h2>
+
+      <p class="texto-ajuda">
+        Compartilhe uma ideia antes que ela escape. Você poderá encontrar
+        pessoas interessadas em desenvolvê-la.
+      </p>
+
+      <form id="form-publicar">
+
+        <div class="campo">
+          <label for="titulo-ideia">Título</label>
+          <input
+            id="titulo-ideia"
+            type="text"
+            maxlength="160"
+            placeholder="qual é a sua ideia?"
+          >
+        </div>
+
+        <div class="campo">
+          <label for="resumo-ideia">Resumo</label>
+          <textarea
+            id="resumo-ideia"
+            rows="5"
+            placeholder="explique brevemente a ideia..."
+          ></textarea>
+        </div>
+
+        <div class="campo">
+          <label for="tags-ideia">Tags</label>
+          <input
+            id="tags-ideia"
+            type="text"
+            placeholder="ex.: programação, robótica, dados"
+          >
+          <small>Separe as tags por vírgulas.</small>
+        </div>
+
+        <p id="erro-publicacao" class="erro-publicacao"></p>
+
+        <button type="submit" class="botao-publicar">
+          Publicar ideia
+        </button>
+
+      </form>
+
+    </div>
+
+  </section>
+
 
   <!-- ------------------------------ GRUPOS ----------------------------- -->
   <section id="grupos" class="escondido">
+
     <ul id="lista-grupos" class="lista-grupos"></ul>
+
   </section>
+
 </main>
 
 <footer>
-  <span>Viveiro — versão 0.1 (MVP)</span>
+  <span>Viveiro — versão 0.2 (MVP)</span>
   <span id="base" class="base"></span>
 </footer>
 
 <script src="dados/dados_C.js"></script>
 <script src="src/app.js"></script>
+
 </body>
 </html>
