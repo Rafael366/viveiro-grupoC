@@ -154,4 +154,22 @@
 
 **Decisões tomadas:** trocar "nome" por "nome de usuário" e reformulação do filtro.
 
+## Encontro 5 — 27/08 (aula)
+
+**Presentes:** Rafael Tavares; Italo Vieira; Nicollas Gama; Artur Rodrigues 
+**Escriba:** Rafael Tavares.
+
+**O que se pretendia:** Aplicar as histórias no sistema.
+**O que se realizou:** -
+
+**Tempo gasto por história:** ~ 10 minutos.
+
+| ID | Quem trabalhou | Tempo (min) |
+|---|---|---|
+|v-00|Rafael Tavares; Italo Vieira; Gabriel Corticioni; Artur Rodrigues, Nicollas Gama. |10 minutos|
+
+**Impedimentos encontrados:** -
+
+**Decisões tomadas:** -
+
 ---
