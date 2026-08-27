@@ -852,10 +852,16 @@
      }
    
      localStorage.setItem(chave, JSON.stringify(apoiosUsuario));
-   
+      
+     const apoiosUsuario = JSON.parse(
+        localStorage.getItem(`viveiro_apoios_${usuarioAtual.id}`) || "[]"
+      );
+      
+     const apoiou = apoiosUsuario.includes(ideia.id);
+
      renderizarMural();
    }
-
+   
 
   /* ================================================================
      PUBLICAÇÃO
