@@ -156,20 +156,18 @@
 
 ## Encontro 5 — 27/08 (aula)
 
-**Presentes:** Rafael Tavares; Italo Vieira; Nicollas Gama; Artur Rodrigues 
-**Escriba:** Rafael Tavares.
+**Presentes:** Rafael Tavares; Italo Vieira; Nicollas Gama; Artur Rodrigues; Gabriel Corticioni.
+**Escriba:** Nicollas Gama.
 
 **O que se pretendia:** Aplicar as histórias no sistema.
-**O que se realizou:** -
+**O que se realizou:** Histórias v1, v2, v3, v4 e v7 aplicadas no sistema.
 
-**Tempo gasto por história:** ~ 10 minutos.
+**Tempo gasto por história:** ~ 15 minutos.
 
-| ID | Quem trabalhou | Tempo (min) |
-|---|---|---|
-|v-00|Rafael Tavares; Italo Vieira; Gabriel Corticioni; Artur Rodrigues, Nicollas Gama. |10 minutos|
+| Quem trabalhou |
+|---|
+|Rafael Tavares; Italo Vieira; Gabriel Corticioni; Artur Rodrigues, Nicollas Gama. |
 
 **Impedimentos encontrados:** -
-
-**Decisões tomadas:** -
 
 ---
