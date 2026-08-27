@@ -26,7 +26,7 @@ profissional.
 ### Apoiar
 
 Significa contribuir de certa maneira em uma ideia
-fornecendo complementos ou criando ideias para um grupo.
+fornecendo feedback.
 
 ---
 
