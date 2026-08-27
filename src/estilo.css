@@ -1,5 +1,4 @@
-/* Viveiro — folha de estilo
-   escrita no 1o semestre de 2026 */
+/* Viveiro estilo.css */
 
 :root{
   --papel:#F6F3EC;
@@ -11,9 +10,12 @@
   --terra:#B4622F;
   --linha:#D8D9CE;
   --cartao:#FFFFFF;
+  --vermelho:#B64040;
 }
 
-*{ box-sizing:border-box; }
+*{
+  box-sizing:border-box;
+}
 
 body{
   margin:0;
@@ -24,6 +26,7 @@ body{
 }
 
 /* ------------------------------- topo ------------------------------- */
+
 header{
   display:flex;
   align-items:center;
@@ -32,92 +35,554 @@ header{
   background:var(--verde);
   color:#fff;
 }
-header h1{ margin:0; font-size:26px; letter-spacing:1px; }
-.lema{ font-size:13px; opacity:.85; margin-left:12px; font-style:italic; }
-.marca{ display:flex; align-items:baseline; }
-.sessao{ font-size:13px; }
-.sessao label{ margin-right:6px; opacity:.85; }
+
+header h1{
+  margin:0;
+  font-size:26px;
+  letter-spacing:1px;
+}
+
+.lema{
+  font-size:13px;
+  opacity:.85;
+  margin-left:12px;
+  font-style:italic;
+}
+
+.marca{
+  display:flex;
+  align-items:baseline;
+}
+
+.sessao{
+  font-size:13px;
+}
+
+.sessao label{
+  margin-right:6px;
+  opacity:.85;
+}
+
 .sessao select{
-  font-size:14px; padding:4px 8px; border-radius:5px;
-  border:1px solid rgba(255,255,255,.5); background:#fff; color:var(--tinta);
+  font-size:14px;
+  padding:4px 8px;
+  border-radius:5px;
+  border:1px solid rgba(255,255,255,.5);
+  background:#fff;
+  color:var(--tinta);
 }
 
 /* ------------------------------- abas ------------------------------- */
-.abas{ padding:0 26px; border-bottom:1px solid var(--linha); background:var(--papel); }
+
+.abas{
+  padding:0 26px;
+  border-bottom:1px solid var(--linha);
+  background:var(--papel);
+}
+
 .aba{
-  border:none; background:none; cursor:pointer;
-  font-size:15px; padding:12px 16px; color:var(--suave);
+  border:none;
+  background:none;
+  cursor:pointer;
+  font-size:15px;
+  padding:12px 16px;
+  color:var(--suave);
   border-bottom:3px solid transparent;
 }
-.aba.ativa{ color:var(--verde); font-weight:bold; border-bottom-color:var(--broto); }
 
-main{ padding:20px 26px 40px; }
-
-/* ------------------------------ barra ------------------------------- */
-.barra{ display:flex; align-items:center; gap:14px; margin-bottom:10px; }
-#busca{
-  flex:0 0 340px; font-size:15px; padding:8px 12px;
-  border:1px solid var(--linha); border-radius:6px; background:#fff;
+.aba:hover{
+  color:var(--verde);
 }
-.contagem{ color:var(--suave); font-size:14px; }
-.filtro-ativo{ margin:0 0 12px; font-size:14px; color:var(--terra); min-height:18px; }
+
+.aba.ativa{
+  color:var(--verde);
+  font-weight:bold;
+  border-bottom-color:var(--broto);
+}
+
+/* ------------------------------- geral ------------------------------ */
+
+main{
+  padding:20px 26px 40px;
+}
+
+.escondido{
+  display:none !important;
+}
+
+/* ------------------------------ mural -------------------------------- */
+
+.layout-mural{
+  display:grid;
+  grid-template-columns:230px 1fr;
+  gap:24px;
+  align-items:start;
+}
+
+.barra-lateral{
+  background:#fff;
+  border:1px solid var(--linha);
+  border-radius:8px;
+  padding:16px;
+}
+
+.filtro-box{
+  margin-bottom:22px;
+}
+
+.filtro-box:last-child{
+  margin-bottom:0;
+}
+
+.filtro-box h2{
+  font-size:14px;
+  margin:0 0 8px;
+  color:var(--verde);
+}
+
+.filtro-box select,
+.filtro-box input{
+  width:100%;
+  font-size:14px;
+  padding:8px 9px;
+  border:1px solid var(--linha);
+  border-radius:6px;
+  background:#fff;
+  color:var(--tinta);
+}
+
+.conteudo-mural{
+  min-width:0;
+}
+
+.barra{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  margin-bottom:10px;
+}
+
+.contagem{
+  color:var(--suave);
+  font-size:14px;
+}
+
+.filtro-ativo{
+  margin:0 0 12px;
+  font-size:14px;
+  color:var(--terra);
+  min-height:18px;
+}
+
+.filtro-ativo button{
+  margin-left:8px;
+  border:1px solid var(--terra);
+  color:var(--terra);
+  background:transparent;
+  border-radius:12px;
+  padding:3px 9px;
+  cursor:pointer;
+}
+
+.filtro-ativo button:hover{
+  background:var(--terra);
+  color:#fff;
+}
 
 /* ----------------------------- cartões ------------------------------ */
+
 .cartoes{
   display:grid;
   grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
   gap:16px;
 }
+
 .cartao{
   background:var(--cartao);
   border:1px solid var(--linha);
   border-radius:8px;
   padding:14px 16px;
   box-shadow:0 1px 2px rgba(0,0,0,.05);
+  min-width:0;
 }
 
-/* o título não pode quebrar linha, senão o cartão fica torto */
 .cartao h3{
   margin:0 0 6px;
   font-size:17px;
   color:var(--verde);
-  overflow-wrap:break-word;
+  overflow-wrap:anywhere;
+  word-break:break-word;
+  line-height:1.3;
 }
 
-.cartao .autoria{ font-size:12.5px; color:var(--suave); margin-bottom:8px; }
-.cartao .resumo{ margin:0 0 10px; line-height:1.45; }
-.cartao .tags{ margin-bottom:10px; }
+.cartao .autoria{
+  font-size:12.5px;
+  color:var(--suave);
+  margin-bottom:8px;
+}
+
+.autor-link{
+  border:0;
+  background:none;
+  padding:0;
+  color:var(--verde);
+  font-weight:bold;
+  cursor:pointer;
+  text-decoration:underline;
+}
+
+.autor-link:hover{
+  color:var(--broto);
+}
+
+.cartao .resumo{
+  margin:0 0 10px;
+  line-height:1.45;
+}
+
+.cartao .tags{
+  margin-bottom:10px;
+}
+
 .etiqueta{
-  display:inline-block; font-size:12px; padding:2px 9px; margin:0 5px 5px 0;
-  background:var(--verde-claro); color:var(--verde);
-  border-radius:12px; cursor:pointer;
+  display:inline-block;
+  font-size:12px;
+  padding:2px 9px;
+  margin:0 5px 5px 0;
+  background:var(--verde-claro);
+  color:var(--verde);
+  border-radius:12px;
+  cursor:pointer;
 }
-.etiqueta:hover{ background:var(--broto); color:#fff; }
-.cartao .rodape{ display:flex; align-items:center; gap:10px; }
-.apoiar{
-  font-size:13px; padding:4px 12px; cursor:pointer;
-  border:1px solid var(--broto); color:var(--verde);
-  background:transparent; border-radius:14px;
+
+.etiqueta:hover{
+  background:var(--broto);
+  color:#fff;
 }
-.apoiar:hover{ background:var(--broto); color:#fff; }
-.apoios{ font-size:13px; color:var(--suave); }
+
+.etiqueta.selecionada{
+  background:var(--broto);
+  color:#fff;
+}
+
+.cartao .rodape{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
+}
+
+.interesse{
+  font-size:13px;
+  padding:5px 12px;
+  cursor:pointer;
+  border:1px solid var(--broto);
+  color:var(--verde);
+  background:transparent;
+  border-radius:14px;
+}
+
+.interesse:hover{
+  background:var(--broto);
+  color:#fff;
+}
+
+.interesse.ativo{
+  background:var(--verde);
+  border-color:var(--verde);
+  color:#fff;
+}
+
+.apoios{
+  font-size:13px;
+  color:var(--suave);
+}
+
+.sem-resultados{
+  padding:20px;
+  background:#fff;
+  border:1px dashed var(--linha);
+  border-radius:8px;
+  color:var(--suave);
+}
+
+/* ------------------------------ perfil ------------------------------ */
+
+.pagina-pessoa{
+  max-width:850px;
+}
+
+.botao-voltar{
+  border:1px solid var(--linha);
+  background:#fff;
+  color:var(--verde);
+  border-radius:6px;
+  padding:8px 13px;
+  cursor:pointer;
+  margin-bottom:18px;
+}
+
+.botao-voltar:hover{
+  background:var(--verde-claro);
+}
+
+.dados-pessoa{
+  background:#fff;
+  border:1px solid var(--linha);
+  border-radius:8px;
+  padding:22px;
+  margin-bottom:24px;
+}
+
+.dados-pessoa h2{
+  margin:0 0 8px;
+  color:var(--verde);
+}
+
+.tipo-pessoa{
+  display:inline-block;
+  background:var(--verde-claro);
+  color:var(--verde);
+  padding:4px 10px;
+  border-radius:14px;
+  font-size:12px;
+  margin-bottom:16px;
+}
+
+.dado-pessoa{
+  margin:7px 0;
+}
+
+.dado-pessoa strong{
+  color:var(--tinta);
+}
+
+.interesses{
+  display:flex;
+  flex-wrap:wrap;
+  gap:7px;
+  margin-top:8px;
+}
+
+.interesse-tag{
+  background:var(--verde-claro);
+  color:var(--verde);
+  padding:4px 10px;
+  border-radius:14px;
+  font-size:12px;
+}
+
+.ideias-pessoa h2{
+  color:var(--verde);
+  font-size:20px;
+}
+
+.lista-ideias-pessoa{
+  display:grid;
+  gap:10px;
+}
+
+.ideia-pessoa{
+  display:block;
+  width:100%;
+  text-align:left;
+  border:1px solid var(--linha);
+  border-radius:7px;
+  background:#fff;
+  padding:13px 16px;
+  cursor:pointer;
+  color:var(--verde);
+  font-weight:bold;
+  font-size:15px;
+}
+
+.ideia-pessoa:hover{
+  background:var(--verde-claro);
+}
+
+.data-ideia{
+  display:block;
+  color:var(--suave);
+  font-size:12px;
+  font-weight:normal;
+  margin-top:4px;
+}
+
+/* ----------------------------- publicar ----------------------------- */
+
+.pagina-publicar{
+  max-width:700px;
+  background:#fff;
+  border:1px solid var(--linha);
+  border-radius:8px;
+  padding:24px;
+}
+
+.pagina-publicar h2{
+  color:var(--verde);
+  margin-top:0;
+}
+
+.texto-ajuda{
+  color:var(--suave);
+  line-height:1.5;
+}
+
+.campo{
+  margin-bottom:18px;
+}
+
+.campo label{
+  display:block;
+  font-weight:bold;
+  margin-bottom:6px;
+}
+
+.campo input,
+.campo textarea{
+  width:100%;
+  font:inherit;
+  padding:9px 11px;
+  border:1px solid var(--linha);
+  border-radius:6px;
+  background:#fff;
+  color:var(--tinta);
+}
+
+.campo textarea{
+  resize:vertical;
+}
+
+.campo small{
+  display:block;
+  margin-top:5px;
+  color:var(--suave);
+}
+
+.erro-publicacao{
+  color:var(--vermelho);
+  min-height:20px;
+  margin:0 0 10px;
+}
+
+.botao-publicar{
+  border:none;
+  background:var(--verde);
+  color:#fff;
+  padding:9px 18px;
+  border-radius:6px;
+  cursor:pointer;
+  font-size:14px;
+}
+
+.botao-publicar:hover{
+  background:#3f653f;
+}
 
 /* ------------------------------ grupos ------------------------------ */
-.lista-grupos{ list-style:none; padding:0; margin:0; max-width:640px; }
-.lista-grupos li{
-  background:#fff; border:1px solid var(--linha); border-radius:8px;
-  padding:12px 16px; margin-bottom:10px;
-}
-.lista-grupos .nome{ font-weight:bold; color:var(--verde); font-size:16px; }
-.lista-grupos .quantos{ float:right; color:var(--suave); font-size:13px; }
-.lista-grupos .descricao{ margin:4px 0 0; font-size:14px; color:var(--tinta); }
 
-.escondido{ display:none; }
+.lista-grupos{
+  list-style:none;
+  padding:0;
+  margin:0;
+  max-width:640px;
+}
+
+.lista-grupos li{
+  background:#fff;
+  border:1px solid var(--linha);
+  border-radius:8px;
+  padding:12px 16px;
+  margin-bottom:10px;
+}
+
+.lista-grupos .nome{
+  font-weight:bold;
+  color:var(--verde);
+  font-size:16px;
+}
+
+.lista-grupos .quantos{
+  float:right;
+  color:var(--suave);
+  font-size:13px;
+}
+
+.lista-grupos .descricao{
+  margin:4px 0 0;
+  font-size:14px;
+  color:var(--tinta);
+}
+
+/* ------------------------------ vazio -------------------------------- */
+
+.vazio-pessoa{
+  background:#fff;
+  border:1px dashed var(--linha);
+  border-radius:8px;
+  padding:18px;
+  color:var(--suave);
+}
 
 /* ------------------------------ rodapé ------------------------------ */
+
 footer{
-  display:flex; justify-content:space-between;
-  padding:12px 26px; border-top:1px solid var(--linha);
-  font-size:12.5px; color:var(--suave);
+  display:flex;
+  justify-content:space-between;
+  padding:12px 26px;
+  border-top:1px solid var(--linha);
+  font-size:12.5px;
+  color:var(--suave);
 }
-.base{ font-family:Consolas, monospace; }
+
+.base{
+  font-family:Consolas, monospace;
+}
+
+/* --------------------------- responsivo ---------------------------- */
+
+@media (max-width:760px){
+
+  header{
+    align-items:flex-start;
+    flex-direction:column;
+    gap:12px;
+  }
+
+  .marca{
+    display:block;
+  }
+
+  .lema{
+    display:block;
+    margin:4px 0 0;
+  }
+
+  .abas{
+    padding:0 10px;
+    overflow-x:auto;
+    white-space:nowrap;
+  }
+
+  main{
+    padding:15px;
+  }
+
+  .layout-mural{
+    grid-template-columns:1fr;
+  }
+
+  .barra-lateral{
+    width:100%;
+  }
+
+  .cartoes{
+    grid-template-columns:1fr;
+  }
+
+  footer{
+    padding:12px 15px;
+    gap:10px;
+    flex-direction:column;
+  }
+}
