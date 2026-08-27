@@ -585,4 +585,18 @@ footer{
     gap:10px;
     flex-direction:column;
   }
+  .excluir{
+  font-size:13px;
+  padding:5px 12px;
+  cursor:pointer;
+  border:1px solid #c96a6a;
+  color:#a63d3d;
+  background:transparent;
+  border-radius:14px;
+  }
+
+  .excluir:hover{
+  background:#a63d3d;
+  color:#fff;
+  }
 }
