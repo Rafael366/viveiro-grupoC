@@ -1,69 +1,237 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Viveiro — berçário de ideias</title>
-<link rel="stylesheet" href="src/estilo.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Viveiro — berçário de ideias</title>
+
+  <link rel="stylesheet" href="src/estilo.css">
 </head>
+
 <body>
 
 <header>
+
   <div class="marca">
     <h1>Viveiro</h1>
-    <span class="lema">onde as ideias crescem antes de virar projeto</span>
+    <span class="lema">
+      onde as ideias crescem antes de virar projeto
+    </span>
   </div>
 
   <div class="sessao">
-    <label for="quem">navegando como</label>
+
+    <label for="quem">
+      navegando como
+    </label>
+
     <select id="quem"></select>
+
   </div>
+
 </header>
 
+
 <nav class="abas">
-  <button id="aba-mural" class="aba ativa">Mural</button>
-  <button id="aba-grupos" class="aba">Grupos</button>
-  <button id="aba-publicar" class="aba">Publicar ideia</button>
+
+  <button id="aba-mural" class="aba ativa">
+    Mural
+  </button>
+
+  <button id="aba-grupos" class="aba">
+    Grupos
+  </button>
+
+  <button id="aba-relatorios" class="aba">
+    Relatórios
+  </button>
+
+  <button id="aba-notificacoes" class="aba">
+    Caixa de entrada
+    <span id="contador-notificacoes" class="badge-notificacao">0</span>
+  </button>
+
 </nav>
+
 
 <main>
 
-  <!-- ------------------------------ MURAL ------------------------------ -->
+  <!-- =========================================================
+       MURAL
+       ========================================================= -->
+
   <section id="mural">
 
     <div class="layout-mural">
 
+      <!-- BARRA LATERAL -->
+
       <aside class="barra-lateral">
 
-        <div class="filtro-box">
-          <h2>Filtrar por curso</h2>
+        <div class="painel-filtro">
+
+          <h2>Encontrar ideias</h2>
+
+          <label for="filtro-curso">
+            Curso
+          </label>
 
           <select id="filtro-curso">
-            <option value="">Todos os cursos</option>
+            <option value="">
+              Todos os cursos
+            </option>
           </select>
+
+
+          <label for="ordenacao">
+            Ordenar
+          </label>
+
+          <select id="ordenacao">
+
+            <option value="recentes">
+              Mais recentes
+            </option>
+
+            <option value="antigas">
+              Mais antigas
+            </option>
+
+            <option value="interessados">
+              Mais interessados
+            </option>
+
+            <option value="paradas">
+              Ideias sem atualização
+            </option>
+
+          </select>
+
         </div>
 
-        <div class="filtro-box">
-          <h2>Buscar</h2>
+
+        <div class="painel-publicacao">
+
+          <h2>Nova ideia</h2>
+
+          <form id="form-ideia">
+
+            <label for="titulo">
+              Título
+            </label>
+
+            <input
+              id="titulo"
+              name="titulo"
+              type="text"
+              maxlength="160"
+              placeholder="título da ideia"
+            >
+
+
+            <label for="resumo">
+              Resumo
+            </label>
+
+            <textarea
+              id="resumo"
+              name="resumo"
+              maxlength="500"
+              placeholder="explique brevemente sua ideia"
+            ></textarea>
+
+
+            <label for="tags">
+              Tags
+            </label>
+
+            <input
+              id="tags"
+              name="tags"
+              type="text"
+              placeholder="ex: programação, dados"
+            >
+
+            <p
+              id="erro-formulario"
+              class="erro"
+            ></p>
+
+            <button
+              type="submit"
+              class="botao-principal"
+            >
+              Publicar ideia
+            </button>
+
+          </form>
+
+        </div>
+
+
+        <div class="painel-dados">
+
+          <h2>Dados</h2>
+
+          <button
+            id="btn-exportar"
+            class="botao-secundario"
+          >
+            Exportar dados
+          </button>
+
+          <button
+            id="btn-importar"
+            class="botao-secundario"
+          >
+            Importar dados
+          </button>
+
+          <input
+            id="arquivo-importar"
+            type="file"
+            accept=".json,application/json"
+            class="arquivo-escondido"
+          >
+
+          <p id="mensagem-dados"></p>
+
+        </div>
+
+      </aside>
+
+
+      <!-- CONTEÚDO DO MURAL -->
+
+      <div class="conteudo-mural">
+
+        <div class="barra">
 
           <input
             id="busca"
             type="search"
             placeholder="buscar por título, resumo ou tag..."
           >
+
+          <span
+            id="contagem"
+            class="contagem"
+          ></span>
+
         </div>
 
-      </aside>
 
-      <div class="conteudo-mural">
+        <p
+          id="filtro-ativo"
+          class="filtro-ativo"
+        ></p>
 
-        <div class="barra">
-          <span id="contagem" class="contagem"></span>
-        </div>
 
-        <p id="filtro-ativo" class="filtro-ativo"></p>
-
-        <div id="cartoes" class="cartoes"></div>
+        <div
+          id="cartoes"
+          class="cartoes"
+        ></div>
 
       </div>
 
@@ -72,96 +240,174 @@
   </section>
 
 
-  <!-- ------------------------------ PERFIL ----------------------------- -->
-  <section id="perfil" class="escondido">
+  <!-- =========================================================
+       GRUPOS
+       ========================================================= -->
 
-    <div class="pagina-pessoa">
+  <section
+    id="grupos"
+    class="escondido"
+  >
 
-      <button id="voltar-mural" class="botao-voltar">
-        ← Voltar ao mural
+    <div class="cabecalho-secao">
+
+      <div>
+        <h2>Grupos de projeto</h2>
+
+        <p>
+          grupos de estudo e pesquisa do Viveiro.
+        </p>
+      </div>
+
+    </div>
+
+
+    <div
+      id="meus-grupos"
+      class="meus-grupos"
+    ></div>
+
+
+    <ul
+      id="lista-grupos"
+      class="lista-grupos"
+    ></ul>
+
+  </section>
+
+
+  <!-- =========================================================
+       RELATÓRIOS
+       ========================================================= -->
+
+  <section
+    id="relatorios"
+    class="escondido"
+  >
+
+    <div class="cabecalho-secao">
+
+      <div>
+        <h2>Relatório de ideias por curso</h2>
+
+        <p>
+          visão quantitativa das ideias e dos interesses registrados.
+        </p>
+      </div>
+
+    </div>
+
+
+    <div
+      id="relatorio-conteudo"
+      class="relatorio"
+    ></div>
+
+  </section>
+
+
+  <!-- =========================================================
+       NOTIFICAÇÕES
+       ========================================================= -->
+
+  <section
+    id="notificacoes"
+    class="escondido"
+  >
+
+    <div class="cabecalho-secao">
+
+      <div>
+        <h2>Caixa de entrada</h2>
+
+        <p>
+          notificações sobre suas ideias e atividades.
+        </p>
+      </div>
+
+      <button
+        id="marcar-notificacoes"
+        class="botao-secundario"
+      >
+        Marcar todas como lidas
       </button>
 
-      <div id="dados-pessoa" class="dados-pessoa"></div>
-
-      <div class="ideias-pessoa">
-        <h2>Ideias publicadas</h2>
-        <div id="lista-ideias-pessoa"></div>
-      </div>
-
     </div>
+
+
+    <div
+      id="lista-notificacoes"
+      class="lista-notificacoes"
+    ></div>
 
   </section>
 
 
-  <!-- ------------------------------ PUBLICAR --------------------------- -->
-  <section id="publicar" class="escondido">
+  <!-- =========================================================
+       PÁGINA DA PESSOA
+       ========================================================= -->
 
-    <div class="pagina-publicar">
+  <section
+    id="pessoa"
+    class="escondido"
+  >
 
-      <h2>Publicar uma ideia</h2>
+    <button
+      id="voltar-pessoa"
+      class="botao-voltar"
+    >
+      ← Voltar ao mural
+    </button>
 
-      <p class="texto-ajuda">
-        Compartilhe uma ideia antes que ela escape. Você poderá encontrar
-        pessoas interessadas em desenvolvê-la.
-      </p>
 
-      <form id="form-publicar">
-
-        <div class="campo">
-          <label for="titulo-ideia">Título</label>
-          <input
-            id="titulo-ideia"
-            type="text"
-            maxlength="160"
-            placeholder="qual é a sua ideia?"
-          >
-        </div>
-
-        <div class="campo">
-          <label for="resumo-ideia">Resumo</label>
-          <textarea
-            id="resumo-ideia"
-            rows="5"
-            placeholder="explique brevemente a ideia..."
-          ></textarea>
-        </div>
-
-        <div class="campo">
-          <label for="tags-ideia">Tags</label>
-          <input
-            id="tags-ideia"
-            type="text"
-            placeholder="ex.: programação, robótica, dados"
-          >
-          <small>Separe as tags por vírgulas.</small>
-        </div>
-
-        <p id="erro-publicacao" class="erro-publicacao"></p>
-
-        <button type="submit" class="botao-publicar">
-          Publicar ideia
-        </button>
-
-      </form>
-
-    </div>
+    <div
+      id="perfil-conteudo"
+      class="perfil"
+    ></div>
 
   </section>
 
 
-  <!-- ------------------------------ GRUPOS ----------------------------- -->
-  <section id="grupos" class="escondido">
+  <!-- =========================================================
+       DETALHE DA IDEIA
+       ========================================================= -->
 
-    <ul id="lista-grupos" class="lista-grupos"></ul>
+  <section
+    id="detalhe"
+    class="escondido"
+  >
+
+    <button
+      id="voltar-detalhe"
+      class="botao-voltar"
+    >
+      ← Voltar ao mural
+    </button>
+
+
+    <div
+      id="detalhe-conteudo"
+      class="detalhe-ideia"
+    ></div>
 
   </section>
 
 </main>
 
+
 <footer>
-  <span>Viveiro — versão 0.2 (MVP)</span>
-  <span id="base" class="base"></span>
+
+  <span>
+    Viveiro — versão 0.1 (MVP)
+  </span>
+
+  <span
+    id="base"
+    class="base"
+  ></span>
+
 </footer>
+
 
 <script src="dados/dados_C.js"></script>
 <script src="src/app.js"></script>
